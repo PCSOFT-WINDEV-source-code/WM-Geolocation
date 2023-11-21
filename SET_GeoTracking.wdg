@@ -1,0 +1,90 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : SET_GeoTracking
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1a5db9af012261b8
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAClUJQPKUjrXo9pWaP8XM3u3/iCDvEi5M7aeytc93qavAAoLBDEmu/OxBpD+d+flQ9WpRr3CqY+JDkEWPyP51XG1IfmfEjO5J1jTczAj3pmCM3b0wpELvEPRv219ALHQ/LDTjR7Swamqw==
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : ProcedureTracking
+     internal_properties : CAAAAAgAAAC/+a7lkY1/ojCbAJxBtWJJkkdvnC/YTJk3VUZ03OHJoefKCDz95kUddoXj+gg26wTtGOjoBh5rj2vawfKDTSnJAAQdSCSFHW/N1wOZ4TcDb+BzQTr5TSu/PreGcnEpBWdmkX5rSD56HtDiA1g=
+     procedure_id : 1899878779109728696
+     type_code : 15
+     code : |1+
+      // Résumé : Procédure WLangage appelée lorsque la position de l’utilisateur a changé
+      // Syntax:
+      //ProcedureTracking (<mPosition> is geoPosition)
+      //
+      // Parameters:
+      //	mPosition (geoPosition): User position
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      Procédure ProcedureTracking(mPosition is a geoPosition)
+      
+      Trace("Position retrieved: " + mPosition..Latitude + " " + mPosition..Longitude)
+      
+      // geoTrackingProcedure can be used in background mode. 
+      // You should not access the interface or open windows in the WLanguage procedure because the system does not allow the accesses to the interface when the application is in background.
+      
+      // In this procedure, you can send the position onto a server for example
+      //  SendPositionToServer(mPosition)
+      Trace("Sending the position to the server...")
+     type : 458752
+   -
+     name : ValidateTrackingActivation
+     internal_properties : CAAAAAgAAACVt9JLzBoxu7fId51OHzUZ+qF9vK3BaQERWZ201YdqFOBECawm61L0UaTI5Vif4iA6kMfLOBJA1wiluqLGyqKDglZjsu99Ky9G5DDmhQwPnntRCSlAWtrnyyvZ7yJWNNlMyuMd/U8GE8PFt2IRkkEwQlcFQKnfr9rPmYF3GIvPLvKfsd+1QyVOTvahIYDb3U7h/unutIEKdXVEZON1KZ98oGQ=
+     procedure_id : 1899878779109794232
+     type_code : 15
+     code : |1+
+      
+      // Summary: Manage the recording of geotracking
+      // Syntax:
+      //ValidateTrackingActivation (<bTrackEnabled> is boolean, <sError> is string)
+      //
+      // Parameters:
+      // 	bTrackEnabled (boolean): True if the geotracking is enabled
+      //	cError (UNICODE string): Error
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      Procédure ValidateTrackingActivation(bTrackEnabled is boolean, cError is string)
+      
+      if not bTrackEnabled then
+      	Error(cError)
+      	return
+      else
+      	SaveParameter(PREF_TRACKING_INITIALIZED,"ok")
+      end
+      
+      if WinStatus("WIN_GeoTracking") <> NotFound then
+      	WIN_GeoTracking.CBOX_Geotracking = bTrackEnabled
+      end
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1a1820820079bfdb
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

@@ -1,0 +1,130 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : TPLC_CurrentPosition
+ major_version : 28
+ minor_version : 0
+ type : 20
+ description : ""
+ subtype : 0
+window :
+ name : TPLC_CurrentPosition
+ identifier : 0x2a5db9b0127d66aa
+ internal_properties : CAAAAAgAAACg+eoDn+62cpUY31P/sXILAlRBgs0/bXEfllIvMh1nXnCVW35hzyzAFUPwcStnS/gjZDTSFsnvz1YRdQpkqehZp465A0x+kPs2x0g6mYcOttBqxvYI2xauYF24rmjxPL7C5++7ueoCRQnrgtrQ5lSv6gHnZHU0IwhVildU8MLLy6KXc3Qbz9bVmoiCgKitE8ST1McVsIe87ZRejgbg1XRfi+ZKIdWJ0Nf9D/+IO3dpkxmZGNIPPrKPUIiKmLh3UnCJXI5tUQILBSQwsx52Rj/8HGPPr4ZrTifS+wZR5Lo/ELUByM/mAc171whPbwVBzgO1mZ+e5NP5Qoh1rwt9q+M73EGsRV514ryG3ZAu9E+Oc/0I8c0U7EdfbbGDDT3kdmBPQh7HJsdlK+IshF6B/THuHIt+ttFNBJqIGdlvHaEODyi5RlH3v3X2iML2h/FcxIs2fdNU3GtNvqvRVRBFWY2BUmD9ruCtkREHX5tclp7TeXPu9TRXHzRcaRetzkxABSInkhpVFgjFQafWiKEpRGNjNun6WBaOldkPG+1JrVFDEQGN48io7Z4J2N9iF8+b+YdFQn+qUSNoWhUKMyVlmmAfVb4j+f3GlTFtAOh/RZr5owy7XU07/3x4FzDJxjbk8lTemz0tyIVuviOJsRbdk3p8NTbzfq7bHOwyenYQRuGz1afhSYIgRDsTPKlG2Z/ZdnPOY9e0GIRV1QnvrCoTRke7eSuIeqb5YgAy/8tuDn9ChLBH1ZbFyW9/+mg92Ug6HO3gl8BDnR8CRO7599suFDg+P+GlXDErfz1moALrs6lKEM4rzEZaoT7Qbt2z5QN5KUQGGD02dMWwH/c5HNRX8Im7o4otvOwL/LpCkFdNB7ndnPn4rVo=
+ properties :
+  width : 320
+  height : 60
+ controls :
+  -
+    name : TPLC_CurrentPosition
+    identifier : 0x2a5db9b0127e66aa
+    internal_properties : CAAAAAgAAADEOyEVsxGEWRfw2CylEg6ExEicXBRz/Yvdrm5jiYMFendo6vvwnp3HaRGXBjEb7dfZc8RWU3gk93DmfAVuoKR6gi54CtW9vrKsHd7MY/TWiyeXgz5SBR7nYheL4aLLls3Jd5WaXEqsTS3z8W0P7vj0d43zQcIpjHmHyfdgZD81jWYcGZ9NsKdrDgd4xScoCwrj1YL3yTMHhweF1BbpPTE7VNqoqBAluTnUyaLQXNtY9ZODEm+7FW3zG8wEfwfPxQc2EhtqjO8oIESkG5hgEfpobk9MkTNkHPF5cDxkHTe19gUVjNDSVdGwgUh2+mR1QyhtTLOEkEQlBzhIT7w02KIdXcBhrCG+KJWL52bwvkVKEpbZQhmpXu2Eu0OW7tKXBu7fd3MNCvttyGLqIhW16a3nx8qDQahBYW2FG5/7zHltMlMREY79ftKLhdgBhFwo5iE7hNCJt62p2bw9hIeCRbrIAuUNrNXeMJ9M7SU=
+    properties :
+     width : 320
+     height : 60
+    controls :
+     -
+       name : STC_Street
+       identifier : 0x2a5db9b0127f66aa
+       internal_properties : CAAAAAgAAAD4TLpqT6lKh1fZzSkW4Uq39OsyVepCRx32+LNuD8/IzsMdRGuzZB9p/LPelQnXKhxtustShH/fUOMH/sGir+QfVpar6H1E8TGVnXFs3MD/A+9fNQsnzcvqq7Sk026ZyxSCFeo5ThUYyBZaqPQic83NlTRYuGdN5hP4U8CeZt/IPOEi/J0LShfAWFKZveA23FZlmUQjMm6QEyK6iHF1Tr0/pdYAZROViIJEerD8eAnuSZkRUSmOhHXzA7+mdhvqZX0yKrC4a76CTKBv5FibtSFEqylVEFckXQ+ZraTUjdR026iXDrkZjHMVWqJKZhRd6Tb5OgHvKj2pH8uIpi33Ba2V7h1WqrXLnzl6KvqhclelvMnyrj7uC3D/A8Y95mQvC3EWbLWNTVAkEqMmS6QYT9foHQ8mB4gahuVevaarZZsL5sSjsdG0XbcWaE1hUar4cVZMCi6Fx4IWulA=
+       properties :
+        x : 51
+        y : 29
+        width : 269
+        height : 21
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_CurrentSearch
+       identifier : 0x2a5db9b0128066aa
+       internal_properties : CAAAAAgAAADdjsuNmOAfa2Jk6qwlOrHy2uwJIO2tdY9o1/B5gxAA1xmXimXsykbLgx9C3KZMLQCDrK/LA+TuG2PCjYuM0B64jQ58T2ERYStwQHLDnUAe7mD0yWT0WFBOm5EwG+zZ9+YnwrUlYaM8bg0dl2OC7yWB5XlWfFFdqAtiv4CUi30mgrxcSE3V77brfu/YiBGLRymz7r0IqGmZtGAm2yPwA5o2hgoohqINfCFcKV/wS4KT2XTFt8f/DY/hrFxjlJinTBn23ydAzKvbtaP7sIPZs40RkeXA9G102hLa7Td7q80RQyrsTlObEEz32z6h7Vfxd0miwl56deby5+EMz0UQ8cFupuqmm65l1rFGd/RTbxlGdXLclq5z6QxqE6K/bwS5V20qTCEnyEmLTVP6gP522MTUeVRfIyN0l5o6Tvs+GGNcQg9TmBIdgGQ4lmc7Z1Sv01kCculw0tRnhAxUxeubwOgA06dfccKZ
+       properties :
+        x : 51
+        y : 22
+        width : 251
+        height : 17
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_City
+       identifier : 0x2a5db9b0128166aa
+       internal_properties : CAAAAAgAAAACyc8mlGTItBTf9h/qZ96CUUvqOAXdi1sbd/EoEfZfoZ/8hVON4Sr8jl0ck/+G+BH3VsXfdDnhChMO3jmVZ8SnMzSrwIMPQBKFp4nBNPku3G/btHfX7OAbzjELckr12vb0jDnGK/qWjJecEDBvwElK+f4doJuEz72rCY4eDIEFrLJljFu4zGF28MphmFk+I/cH4IuKP9N/N2xTIJ4HDLapZDkirAEE6TBRk3XbMQn8gvra2eB0MZerkDTg4dvmdzQRARJVv6+gKIOWgDUZQ+XZnjrJ2YnXq4vKVLY1RXi2FkP4ONyHUSXy1mbF0tvO8DxR8N65MZm0fnHitx8AiGL9QINXnuxBinD2ThkDN75TeXzg2ziagIqO3x8mhs1yeDgbKdg5+JLRqiiM4kzawITeW/OnVfzbUvTg3PqVPQ2Y7uTGuMKcimNMi9P78giN8CTH6YeLVP9/Acpm
+       properties :
+        x : 51
+        y : 8
+        width : 269
+        height : 20
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 42
+    code_elements :
+     type_code : 92
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x22ce7e2b10e0bff1
+  internal_properties : CAAAAAgAAADTN8HEtSmxJbGQvqTppfzbce2BmgPwS0yGuSbs0NrpL5v15RGkJMIobQXjOAkKGGKYltvERouJQUu60rFhhT68WJByrg0dRTIXJ4CVMclgylrF2lFFboi58NChD/zOTlHkAiHjVCsNkuKGbS3f000HDeeVbLFsMCQ9FyKG5I37vOpboISfrpltFldLaHshOTn0iziReG7CdYmBn+XJCyX5KoHeAEziYQJQeYosBfVQr0tMdOcAwQKIA/ADfGp0e0ahl+XeMSyiRpgjh+5Y2VdLlr/rOHHQFqA2wJyamdYc
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 91
+  p_codes : []
+  procedures :
+   -
+     name : DisplayAddress
+     procedure_id : 1899878783404828330
+     type_code : 14
+     code : |1+
+      // Summary: Displays the address corresponding to the GPS position passed in parameter
+      // Syntax:
+      //DisplayAddress (<GPSPosition> is geoPosition)
+      //
+      // Parameters:
+      //	GPSPosition (geoPosition): GPS position
+      // Return value:
+      // 	None
+      
+      Procédure DisplayAddress(GPSPosition is a geoPosition)
+      
+      MyAddress is an Address
+      arrAddresses is array of Address
+      if geoGetAddress(GPSPosition..Latitude + "," + GPSPosition..Longitude, arrAddresses) = False then
+      	if ErrorOccurred then 
+      		STC_City = "Unknown address"
+      		STC_City..Visible = True
+      		return
+      	end
+      end
+      
+      MyAddress = arrAddresses[1]
+      
+      STC_City = MyAddress..City
+      STC_City..Visible = True
+      
+      STC_Street = MyAddress..Street
+      STC_Street..Visible = True
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : MDLC_SansNom1
+resources :
+ string_res :
+  identifier : 0x12ce7e2b003abff1
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

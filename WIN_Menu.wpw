@@ -1,0 +1,1222 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Menu
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Menu
+ identifier : 0x2a5db9ac11ea563f
+ internal_properties : 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
+ properties :
+  width : 320
+  height : 407
+  heightMin : 480
+ controls :
+  -
+    name : BTN_FIND
+    identifier : 0x2a5db9ac11eb563f
+    internal_properties : CAAAAAgAAADJD2LapJTOAXUr0eMSHgjTOlttVj/XzoOm0C5NnF+gO3L48sRhpK/Z0tv14JYQnnqQT0p4QX1i01R89WYiG2OsTnurj/CKMpA45vta4r6sM2BwvqpfxMToBIc+MuhbjutgOGmyX6o6TGXB8e7UERFj1B1krupmpZIOBtFoMpnXw1OpoV2dM0SXtE8w+JnSjDaYyCyUo1QEz55aiNe0fkkObMopKmWcjrBA55V764pWWNYeWNh9ZBd5YLVJEajrVXMKoE/oNwi18C6V5FI5lH/aBiySpeDGjz/zaBxE31lr2BFrIymSdAqAkj/745gL27wnc9awO0wl7W6boW9DPyRPDO/fP/yL0Hg85QX1f1eY5HYGFnRG/0xIO9Cxwt+ZWiLRNqGAC9SBzyEj8omEhycRBQar8ItZjnNv1N8LlfBRqV0D7lGX2xS+r5AhqO6Seo4yrQ7tKNYG3r3mJappmEFrdmJHSmG5+Y4izAKbsobxN/PytChbVZeeViX3xbvHWdEaYOuwGN40HofXm0nSAfKYP69HKqANaQx+AXgqYy0YZ65N1CtPdFsx4s2Bdt9DucKtIFTN3OkLAOI/FkMixZ9fl+2OEWQG8lhPQyvSX3sY8Mz/FWnZEc5dISZMiJfqzrudKuzzUb7rtEt+shYBa4OBNw0gErDgJFWRCOgKpHkJzWYLrAqFXJ/07n1Qx9LO4+m6HZ92EXpJbsvu+FZkKWcPN8KVaD9cp8bCsaM9ZS5FG1BaTCc36nW5h2rTWwxR6ZUbmE/AaTSlC/ZrNRwXHjLm5dRy8/iLsnwad6go5+A7dLeRQDZKa80SbAsNDwT8L9SP+ZJQA7NctRPq2zX9IaEkWq25C7/r5Hn+odYOGajyUonktJxaJI83H+GodqFbGvqfAmHPFvgWnxU953pB5NrvbCKtBvab+TGTNKL+fia442ippb+ZjI3Eq+j2FwvEZ8rb7lvdVL+1jIHk0GNYUx3HZrCcolIVy8+Hfj8+7rHxxOE3zYMCaE5K542/0lh7
+    properties :
+     x : 168
+     y : 277
+     width : 136
+     height : 43
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         switch CBOX_Near
+         
+         	case 0 :
+         		FindA()
+         		
+         	case 1 :
+         		
+         		SIPVisible(False)
+         		
+         		//Retrieve the GPS position of the specified address
+         		arrAddresses is array of Address
+         		if geoGetAddress(EDT_Where, arrAddresses) = False then
+         			if ErrorOccurred then Error(ErrorInfo())
+         			return
+         		end
+         		
+         		if arrAddresses..Occurrence = 0 then
+         			Error("No store found")
+         			return
+         		end
+         		
+         		//And find the stores located around this address
+         		FindNearBy(arrAddresses[1].Position)
+         		
+         		STC_RemindSearch2 = TAB + "near " + EDT_Where
+         		STC_RemindSearch1 = TAB + "near " + EDT_Where
+         		
+         		
+         		
+         end
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : MAP_Position
+    identifier : 0x2a5db9ac1208564e
+    internal_properties : CAAAAAgAAAA+b+qu51X3XZoH+e3+RAMJji/YIwTfW8thN5s2NbVGizSgJbUO9cyjoLa1tGE+clRWyxpJcz8MVH8QI1gLihJjY38MkMl2afPFRMwOuIga2+BpvHSSnJetJDfesxc99ARmI7l30/VGiAJjfkvXcpCuguCGqZ8VaaNqferjt9lUkF/NHJorvsEy8IEqVTlDwXaSK4RWpZ23tB2pJTHxJZr2Tz+RsshwW4FnJO1EbMcr6owH85qpS5+PsxrQLwNfzyLnv4gsCKSK3K4ZAhAMmckRfiQT7h4kI5DyOiZ8vigRbvdgwNV4sGkpfokINpSypv3E26YnCK/eb9+8HmSH4CP4G7oTzgh0/5kAyceEPUKM1RQShxFocLRCnlsm3MMyF13Fdmu3XTnXX30C/Rl8I60NisFhW4eQron4mE0JwUHEUlN1Roec1VpNDWRoiZQS5jJ1xIiu+3n/QFDrC5bvXnJE8mKAUOG6
+    properties :
+     x : 2
+     y : 52
+     width : 316
+     height : 280
+    type : 92
+    code_elements :
+     type_code : 121
+     p_codes :
+      -
+        code : |1+
+         MapEndOfMove(MAP_Position)
+         gbFollowMove = False
+         
+         
+         // Retrieve the position that was clicked
+         MyPosition is a geoPosition
+         MyPosition = MapInfoXY(MAP_Position, MouseXPos(), MouseYPos())
+         
+         OpenChild(WIN_Edit_Store,MyPosition.Latitude, MyPosition.Longitude)
+         
+         
+        type : 65659
+  -
+    name : STC_MapMarkerName
+    identifier : 0x2a5db9ac11ec563f
+    internal_properties : CAAAAAgAAAAuWigSY5arfoabEYjcZSxX8X/MZUH0DTYFXc2jQDkSvjf/G+KfJAkLccop3Q0lGPxZ85kPv8zaJtvHR8VWuYrZumStl8BvsMXEs1NWrRoAVb7Xd0QJiasr7OwEvdqb5EVxkoROuQI5qYDxyfhmpCRrka9h0/FJqo44SoFAys1Er2eL5JOfHuL05Bpk1VE4WpZxTUV/vXKgqu+J+EenJgK4zxN6FcPj+dLpunGwK4fFdsR4URPLBELkmh94Qbi0fmRqasOAZ6LWpZepn0f0hHcx473kMDUaV7sRXfHny+JFLE7l1TMkpUNTXVOHAowVDoHqn9JnVv/SEFYyRYwXpt3/xp/5k5AeFNzYjpy93+zJs/zKi10tIiQib0Z/98DM/927OhD4cAyoejEvwa5125PEQsQ3siFg/zZFH4dRIDokhvxRlbaxOISPg2H/I6cRvN2TjKYnR2ol7EFBaCpfvicX8za0zhKN6ALzbTvZXhJIDcQjKw==
+    properties :
+     x : 16
+     y : 343
+     width : 288
+     height : 21
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_MapMarkerAddress
+    identifier : 0x2a5db9ac11ed563f
+    internal_properties : CAAAAAgAAABORpOSoIHTBhsDuyJTG2PimwBDoYeR7gw/oaoSyuifossXUgUQvqdpluIhcuJpNQRUNViCmN8c4txbvKjfvUttJBc7uoOu/eSUfSsf2oE2XRS6o//9Uh4PGm1ISp5LEtFnFzagU+RU7wuMlv0IGSrrvTAVMc8s1lqoUY3a0GR5SKbT3eDyPUTMEHV1LjqWtWkCg71fllhBZ+ZC23D6QdgnezEgztbZ0CqpK/CiFqDk+BXfDP6EYr0bScWoK3Yyd6KuPy5lcDXiGVqNSFnIxdVAdoJCzeynKOxid+482LZcMWPyzf4T9+SIn4KAr375iw6TLZ9ApbDzhNZ0bPlAsF22nyCPKItLNi2uvm/M3/iMigSa2/3WEuOR8lCcFEQPFno45boWgyxretR1GDW8ZOqXzSLd93OjMh0HUW5gdOBcrEDARnpHO4+qc63INwcmTd9X/PUvHnMJE59fNGZ/+2Vbn8ej0uaAx30W6d4Nh8QOsmGI/P95VL5jvMGSCQ==
+    properties :
+     x : 16
+     y : 363
+     width : 288
+     height : 38
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_MapMarkerDistance
+    identifier : 0x2a5db9ac11ee563f
+    internal_properties : CAAAAAgAAAAd2AknUJYYk5xRZOAMMgJ2O0G7uh/HurtbdgnzE6qMpMFTH52urG39Y91P6bh5ystaGqyxTtUazBc37+xTHvXOV9FFnGXooiwrNxP9iCrB/Ih74Co0/qxtHfrQ5MiGdoLSpWjffKpXJBQ/iJVGL9WYpMllknG5imqNBbzubI86BydRqTuK4d+uwr9uq6RJpR82vQZ4t6T3ObA0sb2UzmXQs/MoZIbV+CAHyPpQFYeKG8v5Uj17rUTHiwy0TAyAz5N+Rd6y6QxAZhmgZrZAoylJqD6g1DtQWh3bVBitbFzaxL+EbJusXqg/7NTDG047A62/mN5vD4viw46I6YRyzwCcbkikG6G2MlqIgAoctp/Mo+NB9ilfy0VTpQfWeUgNQMm3tJ16Jz3QuHk1irhrNWeCF+59sUBy23kBu39jdMFN+NnNirrcN1MG53NtW2QqcV/IqkGFuvdZ0KLh4p/IzIqoRTyw+ml+JSsEQkj/FvkgTS55FQj3bg4T
+    properties :
+     x : 237
+     y : 378
+     width : 67
+     height : 21
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_RemindSearch1
+    identifier : 0x2a5db9ac11ef563f
+    internal_properties : CAAAAAgAAABSQoxYJiPUvttzYbJCsbncn6J4wB9Kp9eJZ/WK94xAgjtMFo65iZbCgajilRlepWaW6YmIx2fNfzCm5ioYW5gVUROVfsbUMwW1P2sf/SfQVK23mzihx2VXwHU3g0OAwwH358vlX+DDGpy5A/4jwhAwEv67/PFuwbdJbq8ndYyVMWWawFvzNgF1BGgu8SgJOWcCVm7KwZMW82k8iwD3eAAelzgGdkGmwgyqPyhhuooeH1TXjBwFS04Or3mI4GlKDmtVaZ696xmJ2Y+RpEZEucsRHk60k+PlExVGbj1WgrKc70eig1+8oW+cBD5tW5KeoAEk4uTeVHUeeUUVhTICPcOUxGpQtDpHnjokiFETpeekkjq6sUaHIeIO8WlVPe90h0CmGlRgWbvTrFRl93qelDhoMjOpAAiUryUHENXrKiaskie2Kg8z/4KdR/J/Sv0jVd+XkjHWMEdcGvyd5NV/rZC4jC+dDnvqRJBQtGHS3tVXuMe4hD+5FSUo0a2OFQ==
+    properties :
+     x : 52
+     y : 1
+     width : 267
+     height : 50
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_Where
+    identifier : 0x2a5db9ac11f0564e
+    internal_properties : CAAAAAgAAAAMhV8O//2EKShfTLoyvLk4IIIYMK3hsy+dRKS8YccyrFTPlyaytvynHFBjqq6ZkAmDr99FydFNOIVUPs4F6fuMpbmESZlQKv6f3AJssHJymlB+6fCpT1/DmfDptDwZfJo4nceKKekAz9PZvsktj3mi0XX7Ule34rTp9+Ujt16NCzm4gk5hJoklFNP9hXyhZqh28Ipjf8yJj8jaIm2Q7TBmiIWeyKO/b7ofhldgw51+CpV4VC2ppmKZCPz51zIJcVdMbsIQ06/9/p+U0qS0b5SC9ZuGcKlHybBg4ClqJZ0LzfxDDyb2VvHLxY1ha7fAuN+xlZ7OBjjpaIbFcA0aUhyka25uz6JlPJnG2neMgShmSbcLr7NUZlREUo1O6EZsspiFMT6gDwd/3QCkz7uculS6z4Vtw3DRGxSvC8h0WHSjNwPqqLiCMTl9swic1Iyjq5UAcvwcIT/x0siM+6NNDY27a8V3SkshBQQ=
+    properties :
+     x : 16
+     y : 123
+     width : 288
+     height : 21
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Around_me
+    identifier : 0x2a5db9ac11f1564e
+    internal_properties : CAAAAAgAAACaiu7QN8671Le4WkFCoaJFMoc9guvUdEXH5ayk5B28fQknEtDdYQYFvQGxUfUmrlWkERo34JjEA1GzNlqKPoByzTrP+Reehk7c7UB167AScDGS3r7M+vyxrOPLYx0q0WlxGZE+nAagMVmZr6Yr4830eCw69ko8slGRwo8hmuW7SfC0VDFH5Dvnmsl6XCYmmWKWXhi1ikG69eZwZcaNAn0VOyN7qTA3iQR9roqnhBU+UdXA7yVDVIA3J8F07QiMQk7L2ajppSS6Okvmhb5txyzTh+1BLN6hKTyksMAIlDveG0FefvGHD0GubGXJFDbf1STNR58mBUrlA516P4xpe8rQ18PT/f0+PFS10rZtgnSe4kgzOk+GOSb9FwlUpS4CfAfPpfFGiGKT/k+yruQeD5AkuUi2Apwdc9YFTP2A1D0IWE/PkFkFAfI939SVvs96sBzsOf6Ik1Y2NIvzV88fxZ9VHQk+n7xSHPLr4PrVD/YcEXvoZQhr+iZgoFnJrov6qAT3u5bSesOoYHy1iz8a/l5jpyRiQgBcQTbKTqcmiPLPldzSH/gTxGdvVu2KqvCf9wOArkp4izUz8I2WwOAFP2Bc0A2nc0aMB/oDDyzq1LrNM62ZszDlYyadcfRLkPhWmdWtI62/ufe496HMqVV+GvCYDV5dRH+NwpbgyZn+4kBI9caYxWj1Ry7/JfWLKlYcR8cPzOCSqya9w9QufgFjKtcWJYwSULnH4bOCPbCxKeBSgFor5t+fNH76JEo/e0mHmirQQJEjH2pebsP6fMM9dmezNOP+1IcJxJzhHLHU/fW685vaRojRmU/t9cpUWkjz/CbOSU+I9CqAvguQSPCu/3BppK07aEI6xj7a8Fzzx3IXVJa3XAFb9SRDdeOdEIqCNJjKXumNm/y1E53+jwQgIA5qgchujQXSOyO3gfRPFo59WzpCJvtWf05DXxjHvJ6gzmwqCADsTHzqDSXcCLycha9uSaY1LR1EiDuxhI5dUTlNjaqZJUhbK29DTQ0EOf4ICIPFCXYh3ayyasU1Rl0=
+    properties :
+     x : 19
+     y : 152
+     width : 136
+     height : 43
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         StartBesideSearch()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Elsewhere
+    identifier : 0x2a5db9ac11f2564e
+    internal_properties : CAAAAAgAAAD+tCJg36GU4oTmVKIVrgqZBxmizQmywp5QU0pGdi9mma1mgakacSAc9NS2s6PWzuaomQEm7kfQKn1bJZxHmx4/FsXXQfD9+Tbem7xgLhWnT+BQRUp2ie1XpTpW7OVVbik+EKikofhyf2/9xDRVNvUoiBCyl6DSCxeMjXcOqvHflOYSwt3WukM8WrLUb80KaOQ3zm5vgMCrdonJJ93rW+m/CFqCde4JSHH/YY7emjnWCpjrbcGi8yJO93A6m605DPNx4CUhRUul/3wTMTcmPy3iFjD1TD2mAO1jKgl6plqkRAhjyg1UiqUb3M3qmPfckXKvmHEunJccTzkqihA2ie2K286d9HQ3agGbFmY0w83k1dJ3wQ/S7nmbYoTHMG55x35MT8KnqQj1BOJuo2HMGaYudhifD0NAOdjJFZFfCkQp7jpfjuCf0atOUczx4ff2MuufFngoO954wzia6MoepL8FxavGwxsko7QK5YBIHd1H8B9iHJmwz1/K9GXhr1ryhSnCMu2wTamSDeVJjELiTDmhjkHy5FprisbJQqaJDFVZwTbVv0ILYGpRJLvoy91jCtUIrTqlJIcWo2GnevCkHczabpk2I0UOztg7e/N6oRQkrTI72LJzDPP5ydkKyP3kb49wwb7+yxqkD+eY58q4KNqv/q2jiUDehxoKrcebFGq1ACSZ9AxG0EPRBPfq0d+4mGY8uyH75Swt9Z+ALE47f07sTXub1nhUUFO4xbj6YG2Qyz6QRJUAFVAMI+WYhU6YGVft5bMKX3ih4tXkENO0T7VEZfW7lnDND5KmLsT5WvfuDSBmwTId5HoH7j6NU/CeVO3p0gsWRLjufhfdw5BpXRVbKLd8li6an3nXohDg+3b+hNVaRTcGJsB8kIMPfL+ouGS4JGXT8s7860GrH4RQMfiJqLH5DdEmc1OcmS/jW0cV/ZJ9MvBhptcal0zetXzOjuLMfyAx/5g=
+    properties :
+     x : 168
+     y : 152
+     width : 136
+     height : 43
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         GR_Elsewhere..Visible = True
+         
+         MapEndOfMove(MAP_Position)
+         gbFollowMove = False
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_Where
+    identifier : 0x2a5db9ac11f3564e
+    internal_properties : CAAAAAgAAAC84aqUcUfdXqqZHZrHP27t2yjWcN8j9yU5dDAC1g+MrvDdw0R2XT0YZ4nKN/jyDwY0fEdAa8tu3lOrpZqbAm65qUK5Tel3IT2Bp1VoZmtUX7Ow1EW07nE3ZMfXNPsbo9KxCZ5t6pfJfLh9LsdEUmmJqf375M3GuqlT/PprHUS1YIDsLB+Mn+iN0b1oQGLs/A5cPBKGc34QNArdU7NUVLwllTVPQTyHwbP3PA7D8M7hlM6RG56M1qIxZeBNQJuRkZAgVCcCCS7apSg7oCo2+kV1JUhbBr4WpPKGAbgu74Bjmv2IJqp6IDeYG4+BTjImGNljL+YBgaNKeqe8CFAhInGAUolCITdp/lgScdSAHrcimlfBI37BmgYAOGvmaD2Ef59wtX9wK0atdfvt0vCiuNoI7SqWPM54PhPzzXWr7b9ZT8k4EZcgtxbCoIinxSRQzV54M1+C83vGZrOPVCL/vKXbInZep+GkxJkEdwa3AAJvm1C2WfSZNqXbRavuNUNzPcozklwtv4ymk8cwD5YSvNsqTiQx2bI1a+pIB5Ko1p02G2O7oU9B19x3p2vzrXQLfnXwG4QWetkoQ9RRjk3DwMLO/jrZF9DzW9r+TcfVk/CpqCVXAFPdavmo3Jh3Hb8qx8YQTX1DYn0TPqfrblwCvKohJfntENnqaj9ydH2v1QM5SeGPA6zpQr3jeGoenZFbc/rYmTycBgoWHmS37vkFIQvI2WxWD/5XjsoFWWa8wTVIE/8tixnuZb4bu9Da4mMErEwBM+EO0K85M0xZOIR8g4c6G+YRFQIEGJy2PD6GINHSrAOynnulK7ijwrHs4tSrTF5lz5LwiPK5TD7po7O5ntl+wC9i7w5dULUOvXYzQo1o4HOwV8sGvbxNxe/00x2S23Xf5740nvKEVapWiMJJwG0sGVuHQTrtNpu3ZjzISqZCXLyX/EwBRwx9ZbfXXbSY6LQMCqab3/24i/HxEwtiyJdaiITmFuQ08RbHzsQxBGCZk2Merd9L731B5Rv6hsofgKYqaEEP+w==
+    properties :
+     x : 16
+     y : 226
+     width : 288
+     height : 48
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : CBOX_Near
+    identifier : 0x2a5db9ac11f4564e
+    internal_properties : CAAAAAgAAAAUzR/nNEoc78sNZo0oCO1E7nE5E+N5yIsyuGPYFzK1+B/ny8SWTbAjaP4Gey875IOBSGs2GzHnlZ+o0CK6hHQHK0vUPT69+08Llp1ZF2/bV5cOGfAtOqMSySbBdF8RUTnxK2p925eSrx1owdLmwQldFNRl28ocbdmClNdc6nICG3TUiOGT8dYONTm1szf4JWqZ8EjjtpBMi4ca7EQ+LTaTZieo/zdzznSPCYKdnwIcHm1T6OtihPKwH0jo6lz4S9zFfxbNzSuhSBDavvOi35YHpBfSF4fPaGjSLWLp+KSszymvGru14CXVh0cPM0bFRVinmaj5LXiCDHxO3fAG1q6bMS5EZ3gFMYDBmB6NITcbkAH7IlQPI0SxkCs5JIhTZmhzyrtFftHojlz5NoyAvaBY2y1myH0z2zWuKt4VUPGgKZOguCktaJhnvv4rg6Y2CzRz3NP1u3OhB87NN+KdEwtfr3eJ2JcCDKwJpy2gbhRS2qwgzIlp6JJq/6vv5AO/oOQKL5xNq4Ki2ipeJPdoUhzPGDfEAaab8zZfHgO+4KUZdrgDKq4BAnDbVeIvJplQGvVbcxfyzwjcOpufQZPWZdoj8iP4KQhCKbAiLGm6zWKHpdPJmZYkDcMkj3UJIjPFQIJFb2OkxWn5IlpHhW+KCj9tkvgaW5JeyIc2K2aYpTh62VaMcersToxbd6DqWA4tIuP4pLPbvfeMOk53MFU+B5PAZR8v7TyvNF2uYy1UCaSRYt4dDNB67BdYTVZxAjWHe67zK455ZrTDtCKg3VuTNi3T1KtIxWFrtMvP7H5xwvuhL9+rQygAvZQyDTBdPN9f2ewywulvgycb92bwHfLzlAXDjfA6LlWCBfgXXNWjr7c62+8SUOt0pz0ITI4BdtWZGmOJdvzRvf6yJMeIxChqejuSxTJjamkA4iClP2w5J1xWLvGyfzZp7HoIYYCS38UGbkUdTYmSx0Ss+CwXEw==
+    properties :
+     x : 16
+     y : 195
+     width : 288
+     height : 32
+    options :
+     -
+       internal_properties : CAAAAAgAAABPmOsgal8OPpBgkranF3KmU4eAANfukiArZq6hwJE6tCKqiuug2KgSs/FwbDrcO+DjUvnlYk5GSqApOKjwNsTG5jJ6lUG7n5q7hhp2MU7XKTaWAv9kS/WRH5fQcIroP5cr0u7RJRESce0W0oVu55Vwt0ii+vDRHessNFMARA==
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes : []
+  -
+    name : CTPL_Position
+    identifier : 0x2a5db9ac11f6564e
+    internal_properties : CAAAAAgAAAC6rRIYoFNrN6nxCgEUMEQU8zMg+IlHWIurWq1eVaKPj0QgXUkFHo7WY/UFArcXxb8V0rgIkZpUgrUbhSjko6cSguj8RPxqFfnoEingWRa7MVXpsQQCsz//0eAHVW7/M7H2cABYhM+w1LOdT78O4a4ZdwnmDFyRTo2yzhxRjIgsfe2g+2IuVfOgSHMqIAT6JlCDnBx+fWDNy68Ut4Z7mQcwapZq2UOZ310S9MV8NEBYYqbu0Js44C/O4ksm8cdY+Kt8zlbNeM8yDlWlokqF5coy2Xdlg+PDldVvYUn1q9rTEN6LW7K+NT6W+4ShoRThMDbcNUkDbzbrbvn1ct/YCBOKKHWgImO6stNTB2/zIrzxYm92aHVA3h0OJzftJWR4n0bFgL6i7PdCLwyQ+sJhPDvQeTDo5R4n+kgvvHuYgAtsc/U98OyCgwiI9ygmGPOFyLW1u1SkWQ5kf7pwyQS7DlvoaPPaAXenUG+7lZPZqPtbb3v16P4klz9IPG3DtNsiaKDhXd8fqloe0Y9YZYgGNyblUJEqp9/dCRnPGAU1Wq04E2ubCYgVvIeJpkkA4ZfBMa8I48uuNQMtt4utK6VRIfgI5+ULN14tIpWFrumI1b4q4FQIFI6Fu2eNPkacL6HbiXtK8vrjLwoB0n0DmgeD+TO2uedc1IKCTp1DimgFGyzRkFTkLgAM22HHIDHwELD+F8aaydDaKY+UjEDCp0PiKPbwfCd36AMre/edDna+9T8VirifE1EpXtehkhGyhIUZ0D8gm7Q6zXUUwwmlbRoftYy+dCg2WfYLFBFv9LzstuYWo79g2us37Ntt0z9/KG+sBtOo7+ulhG6EPm+gpHqmkNtnquOqgoJ17kHyZ6XHeSudIs/1+GVOK/GjQo3ZYllDyEz8pxfZiQVSdQQ47pu+CVN76uVSDk6yZFtAx+J1bOZMkmehQRJ0suwMmZLUmf+2iIGxnhQX/pDQHg9Jn3xYVmt12SvnlRHMi5mgEeRWTEHlKtgchQKtVi/4O5VOTCd5AVy/Q8wbNeYyGUbvnYk9VXsUMhUV9Y0mi5Qq65JFDJyC7p2cavzJbrDkZkAWmV/nGm5TsrnPYzPeKglhK7J72GmXp6SgfL9HaY4A4J/rTEVviLoixY9Yuzt2u4QpASnAEavqSpb5D5wq1nxvGG2HjRBkUWUS4+2vBx9+4c7hRAlfrTXeBIGvPfJFdT9X390SzhUNs2dH+a+GxWL9lxCWN8CCoh2kgy9lcixXgnAiz4qaLcRmRT4=
+    properties :
+     y : 347
+     width : 320
+     height : 62
+    controls :
+     -
+       name : STC_Street
+       identifier : 0x2a5db9ac11f7564e
+       internal_properties : CAAAAAgAAACGFAm94NHFXI2AyjnB8DsLbUNGSnzq0jauoSNLhAH9rM/y05X2i/2Nm0BYdBkFs3s0BK9un0vvjX/rH+D9AKi8BKqGQEdKimhQ6/dLimr4TPy6u2wpP9yeA4GfGZERSOe/R9GpNMCFEX2Oz7rR9xKF2Id5xNQKHTgRsq55lNz8j5Hukp2Y3NfhWMxKg5TmR7fdl/Ukk+cJjBwXJSes5TAErhx8jH7BUjEHSS/15pYej9/1KTwam/RLthnXLEButibhf1++brmK3iP2LmRumt+dF8+zzuExdj8K/2pIDSgmtnzSGN84dYo1HKWfBxwjw4rMRYu+GZ+KHN+b/9dFn5rtnrxHQnzhC1DS/VaksPKbi+1Xw9xAEEUIiLd6CNW42Idy0Td9G91ua51gosbrrELaf0VBzIY//KoKYNowmkG3+B2cnVq0VkXftdOhv4TB4r5GKH18aHyFW/vK9B7prgHEJiv41CRVkPEvbOy8hwbQnSwn8ErvuVOCSvdCONjFa8ISj7jS9/9AGwAnzR2dCMZaofcbhzleBYE71hadIVg5xV8GpI0BQTF2kU54AKvW9AhvMi70D6bevq5WA40TsA==
+       properties :
+        x : 50
+        y : 30
+        width : 269
+        height : 21
+       type : 3
+       code_elements :
+        internal_properties : CAAAAAgAAAAOdynK9TiW1cQThJAsNDX7NI++6Otz1/S6a2uHrO1VAW1SX43ju9mGAz1tCWoobSaMmmuUAv4zBNuUzYrD+Dpy5R30aJXAgVMMXwcGiB362VwazFp82KxlzN/ZzOntn2DUAkM0
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_CurrentSearch
+       identifier : 0x2a5db9ac11f8564e
+       internal_properties : CAAAAAgAAAA9PHlyuXFUUEwQr1Y/41au7pp3kUmq4OGgsbHSK1XEeqhJkfEfgjmOrr094s6tpqO0v8wsmt1gvx0kRIXZwUYjMCzxvv3uxWZGYYc52+GbUHTLwZMLW4yvlS5bA/oV1nDgnlfw3HpVsB6EPWq1qU+vxnBssUORLcOwo0rHWqn2lA4Reoumv0fjNC74YVZmxm7axt9fXuTwB/pKtyqLgJs127aGIJgNkK+it5J+5S0eUKNnG8PGiBM/7VNp2nGU4h+Ktow2dU/y8CfwG5wiurD4WyGpV3gTM21CrftRpbiVA8M86ko0MoNbb6ioAGyxWax+1x1CIb/Qnl1ZmF1zZnEvBjBx2zWEHqdyVCV5iv3hPW3D2MYqr5whwbkMZM8cAisb8kWAX1yn+2UwdOLjQduZPGkMRsZb1y9s+JqhX5C8wJPCeXj+e83qM2gu+scLacswDIFB5rvNnQUAcvqEOh4VMUs5hZaZlRdt68Wx5FOjHu6Druvbww4g2V81JCWjku9ygalU8j9UreZaIsiBI5NRgD+dHGICO1d+NG40ng71YUsNYMrOCewjqd6noXHYNgAPvLDo1cyKhGRRA0Had+GfQga+SFq5CHIfL2JXlgE=
+       properties :
+        x : 50
+        y : 23
+        width : 251
+        height : 17
+       type : 3
+       code_elements :
+        internal_properties : CAAAAAgAAAAOdynK9TiW1cQThJAsNDX7NI++6Otz1/S6a2uHrO1VAW1SX43ju9mGAz1tCWoobSaMmmuUAv4zBNuUzYrD+Dpy5R30aJXAgVMMXwcGiB362VwazFp82KxlzN/ZzOntn2DUAkM0
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_City
+       identifier : 0x2a5db9ac11f9564e
+       internal_properties : CAAAAAgAAACYP7on4FNNNdNy639ZRnwFFl+cvTuDl043NX4NlH4iMTjuryET4MDWrJ6Kqn12iFxOt9BpOzl7qhWM6D3wBx8pLTE4UX3/Caa6I2zylZCvQPcww4Li6IGZN2JRZjvrDjCdM77OCPr9Qn3uYF4bqAYiqpOpKh1gJP1mj90EQBdyyMg7lAK4USUJLsMXltBy11hJnfDRKtsJQJotE3o1JD/Ar7gudnU4KR9ws5ZsJI759T00IJ4K8uYj5XSrceLP/ltxjNscYlBOzUsn68zliVQ6du5Xich+GcH/tSci/B5ZvHRDhaczCKhdTvDX8oHr3gREogwIjlTwSDvMlWQIS04medzoljp+ttEVFAuImhA4y3tnSDgxfQpfE0EH1HbyTG0SrMrT1ggc6QnLEnf+Be5TMJdhyoTzK0EerkTomKBxwHX7mJa5k4kxx0oVzEutGfzHCaO8Ux5yg3hu2kRHWaZ1cIIOu6FjOf/gk5IzdiKC5//fczRdT2c9ajSzNKdZryN9iZC71ls9FA1sm0h+64MAwSwkjEc8umrAsl8T4N/Fxqw7FhlAtIEWHBqnp751ttr86NGYmXvfwK4=
+       properties :
+        x : 50
+        y : 9
+        width : 269
+        height : 20
+       type : 3
+       code_elements :
+        internal_properties : CAAAAAgAAACQIf5pDE7/rWkqFlG6OWAv4y3vYNjC2I7w+DS1uifaY8G6377ncPM4cBAKnP+io4ivDFzztaTjAZNt5lHrWpvk5kAqodhG+60670QtNxr9FXAcEvYDPdZhw+FvO/sO9/B0//T8nhvD9LuUnxFpvq1/kg==
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_Location
+       identifier : 0x2a5db9ac11fa564e
+       internal_properties : CAAAAAgAAAC32Sbnc4NQt9G3LdKrzbkJcgzdmQgaiPArLw5g7L7A6HHYRHVr0DlzHy8dhLt5YUjDSrIbqULUkV2tJ+TmbfaLS0GzgzCQP8JXNnBDbvjlVwgjkKLJ7mI8bNoFMQm1Kokb/wYZ1QcOmMFHsnz8wXDlw3DYwTDZYyyfcqqra5H2YfEXXMy4fMdb9mrxpVgVe3RzwddgVMRK5gXJ4UYXeS6GkNLuBuZIYyKOpp0x4NFOJA4scxjYcatjfugoEHRlxbGB4AmcOTeebZ/DAAlk74vT+Yevrnk1kDGrv/aQy4DK32tXtDvV0Z1tKVK3y4214AZJ5rInhHoMXQGlmrhnTo6urbDteuORTKxq5O1mwkrbmkYCrvUrAH319Lm4BZTKW8kH64Y9rjs2kwYS1P1H2UH+gQfWEGWY6hU4EOY3qwbnFGbAGzl6XVgwVuijPJ8QsYjZtSDJwXWX/dpqJ3Sr9D3R/s+93kxWce32taH1iu2DXJR83ot1P5KIxzjw7kEi7V65zp7N5I/X/FxhOt+K+dGQgdjMRLQIrO/PNs5IwJvgua86GLkUK+RFjeX2WacoTyYpo71qvvll18+/IMiN12m0O0A3TY0MR8/03VdQ78aa6DgxLq+g5Z8FuLGZWw9PbPVsZALVJUuF+9KZ9O5JhWtbH3VHLHyqg9Sr3cvLQFE2i4L3GhGhsZpOkNaA64be+nG62fm1FdoSfrplhWpd96hnEg+RvGSUbbKQnIKmvqNlfTLeej374zm40EiPllY3nTeMVuYgNpj1Zv5lQ6G3jDyLfYTjOR6jHpHPS84EJEkDJWw4RbdOkz0DzhItHHCMQsCHkKw=
+       properties :
+        x : 12
+        y : 18
+        width : 24
+        height : 24
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            GetAddress()
+           type : 18
+    type : 43
+    code_elements :
+     internal_properties : CAAAAAgAAACNJW8Ek9QMiyIItO185Bm/ficOZzNAIfaB/FAVvFzV8VDWyfxsBBltlgXfYhjAnkNo0oDcYLgjnNEtUQ2swf9ycaJ+zKsXeI0xExhWW2xxGqmNIOf5PEAUPM/kzIVMaOu5Vg5BB/0xdXtNEShKIP6vz/sA/EFHKo2QcsvT8p7A85V8jA==
+     type_code : 93
+     p_codes : []
+     procedures :
+      -
+        name : DisplayAddress
+        internal_properties : CAAAAAgAAAAKuw2nlIWW3u6seXGPbFK4CB8OO6DeQ0lsSPTqTzHUWPvcEhHuj2tKWDdPm8iY3+KShvP4S4oe/hZfiSPsMX1jUFDGMYghkpdJHM8TZmDo/HrWW+dVMe3EKiEb/v8brHFdPX/xwVbuiIv5h/uaCqgV4ghHUAjZQBC0Q14FspJ277mWkpFKf8NC
+        procedure_id : 1899878766224365119
+        type_code : 14
+        code : |1+
+         // Summary: Displays the address corresponding to the GPS position passed in parameter
+         // Syntax:
+         //DisplayAddress (<GPSPosition> is geoPosition)
+         //
+         // Parameters:
+         //	GPSPosition (geoPosition): GPS position
+         // Return value:
+         // 	None
+         
+         Procédure DisplayAddress(GPSPosition is a geoPosition)
+         
+         MyAddress is an Address
+         arrAddresses is array of Address
+         if geoGetAddress(GPSPosition..Latitude + "," + GPSPosition..Longitude, arrAddresses) = False then
+         	if ErrorOccurred then 
+         		STC_City = "Unknown address"
+         		STC_City..Visible = True
+         		return
+         	end
+         end
+         
+         MyAddress = arrAddresses[1]
+         
+         STC_City = MyAddress..City
+         STC_City..Visible = True
+         
+         STC_Street = MyAddress..Street
+         STC_Street..Visible = True
+         
+        type : 458752
+     templates :
+      -
+        name : CTPL_Position
+        identifier : 0x1557a35500fa9281
+        code_elements :
+         internal_properties : CAAAAAgAAABAPXt8LwJIf1b9Ahqirr81dk3goi1NmW48DeeLhPndWSkWz4k/11FCk7VtmWZIMdoMGs12YChtdgm+f8RZSmQYA4OeilMy+83aUYmEDmcwk5bcDpgyYjLrRllDWn9HxQp+tI16
+         type_code : 93
+         p_codes : []
+     procedure_templates : []
+     property_templates : []
+  -
+    name : BTN_Mapview
+    identifier : 0x2a5db9ac11fb564e
+    internal_properties : CAAAAAgAAAATdM6T45Ucy5/gTRqfvYr0F2Isv7kde2vY8YgFoUxnJrXkLXPXur+IEn8AUyemxOWnKhzX189bPume+EU3uMHOjGqyomAmusJlTVoacl6Xt3moSdgRIm5Agf1VU1wkuPZX7m5dNzgfLd4B24brWO+UBt8pmZziSt+tSawq6KdotTgVsKP0TaC6DoZN2meL0fcqxnmfs6qpe87KrCkm95wAnX4XB8x9E2RnOw+0Te4Q/yZLCssMG++msBV4KPDsnX4nr0zc5lidzCGsJU6dNkpWj8eMhVZP4iaNKU23dBZnZKpZ/0cwiixdpdzyHVc1p5LS8AHYUsZHBB987bMu+vXRjQsVo1t4eQ6eb9Z6JQcrXVbH/5hMxqRRrbPIhu6z3kRIcCqnDvHBCDDWlWvPxnQxJzej+QX0blu0yrbzDFOXrXxx43Ht065geO+38leG4WOZxIc3Pk1qMHX19eJQ3q5CIsu927pvIlB3VRlECfoQuk7tydTd+DRQ7PPy7yrEhOSGrdtUCYyzDAZrhjNiM7pFKKBfMHHas1UAJA/qWntAU2qehXj/lJxsRNgGgeFvfsfNrxnqJMgqnVQ2B7HgepwrKjrhlPkh8UNiQKhBWMoEa2AafvDrCGSjJz7Rp6J6C4ZRfrghcteZtVhtKeUJa65Hm2lEEaFOQgHpJ+RLSpoxEvJkpwizgKe/OlZwuVgdKC4cSy34XOwu2hhqb4CriK6uzFLvWyjKv0+HMVhlq8IZ+y/DxgvSU8QtcKiSbVGvarUBESDzBQAl1POIiow5SJ9p9seWbavvAacqi2qy9qLuAg63m+v+lZgo+J1wGs3CNyn+QrofXmHuAoTxkC1sPUtewzuJ19yhDhLujONM+41AHxaAdjO+jaGm+K57t4CeVe3bbR3eJ11ut4G4P6CBp1ZR9qAfdRp8hBAJejFylYPFAOMi8dYEwPgxGw==
+    properties :
+     x : 16
+     y : 350
+     width : 288
+     height : 42
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         if LOOP_ListMarkers..Occurrence > 0 then
+         	
+         	DisplayMapPlane()
+         	
+         end
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+      -
+        type : 66058
+  -
+    name : LOOP_ListMarkers
+    identifier : 0x2a5db9ac11fc564e
+    internal_properties : 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
+    properties :
+     y : 94
+     width : 320
+     height : 239
+    controls :
+     -
+       name : STC_Name
+       identifier : 0x2a5db9ac1203564e
+       internal_properties : CAAAAAgAAAC1+bs5gC04qEAOueKpmfofXXkhmUXRwNCsZzxB5XiG5KrAbGMcnpiuORCkkssNs3ITc/WrsWFWfT+gsd3R0LHQHO8oVXuuXcYdtnzRAZ+btbV7mSDL7xCu5llGVRqfZiq7sZF0ji+4Esnj/K0WoSkCcAFAoB+Rw4M5ePGOkBi1RqTGhtgtruUDH1QY0TFTgDKHV5+6Y8q51567qdBIGG4DWkc5Pex7BIAtt3VE3QDo2uZWuAjyo/0purj7CT5dHpgbcH12FdyKhlj2NaWc7lfGdgjk2PKoJBgo8v8/DxlYfAHCQn1+wGMqZAy59PbMPP16uGLyTDnDe2uapec8xSH9moxfbHGFQMxqODRmq2rAcO4vEnGEMfquiPXDCQ8bcL8Li0f9Qfg18VNtfU+6pWgnotWwKKv3r3EBaOBY8MVWKceGxulq5Gqpg/qO6boLVD+dpEwkH67TciC/bC+1FWXFNq1V++cWydCxJdgEfOxHRO0PXRBGcaEKAYB75jqxzF8cxPHEj33LbiTprQ/ijAPK/VBJ4FcQKXAOt+WkuPywtw==
+       properties :
+        x : 16
+        y : 11
+        width : 288
+        height : 21
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_Address
+       identifier : 0x2a5db9ac1204564e
+       internal_properties : CAAAAAgAAAA1x4VD1o7jnFXvl1eJ6OuW9eXgR19TCW5CUMNSIR29v+7vR73IdJKlvBi6Mfa/QOsboo7kxa5OTc6OL2Q5K5pq9mBqN6Xit1zNsS48qcw/0GsY+5nhe24CM2Y4mKgR0tV2P7W3OluKAU4/Ro8E6fXUe2u8I/KC/f6jUAPgv3PcwtEACIBg5H0NEUqsyAm3PXA8QZu4wiVAYRCkj0FxfYJU0bFqWm8waF7re4InekRy9212PHZNSgAov2xLnXJJDcUx8x2clA6W3KUDL3IeeeHkLXHWPbeD513YzdVKU6HoaH+5BchIlnZAqXkPaxs3uBjyie3h8RXfAS/qcfe3SQ1GlSOjIEb/3/N0wjIshtpxvz+Wy5q3WmITiSizjFEe3enPLHVeqWcrX0/TQKiWPXQEsMVETa0t7UxchNS2LWWdafNFnfskIOCBZaVTJK82zryKYEqoHVOvxrgGodo8DuJsZKuXrNNlVHgwyl6sG2hJXCAk
+       properties :
+        x : 16
+        y : 34
+        width : 288
+        height : 21
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_City
+       identifier : 0x2a5db9ac1205564e
+       internal_properties : CAAAAAgAAADv1gWujlDZf4uDIh7MVDZ5GFiklxDjeq0OYAF038oaBz6xvjTEItVlaSyg2NUtWyjyDllXvIorN0voOgdjp5PXP6NAv4aMJN0G3Nm5HQoDME0dwdq88K7NiIQ+NJpxnr1kOyQkZfEb0p35fVA4tc7/Pqw7nqBZoOsnbrBDU9XyllwbkOk2We2rXyt55gjkDywfZTkIxhFUKPJ4XgOioqltOv+4KZkrZe5hCmpHT/7w8Qp7p+mH83kOWqg85qmfvRvJrnXK9Ex86bEnKCqy00Qm1na7tuBn63IjE9odeo3RORcNoFCfRxQ1+sogawzWXGo5sRSrioqMXLHxGeDc+akds5PGkg7TnMETVhKlhGkHLIIZDbzFX1qrNkYow8TXJye0ha8Dv2JecVFssI4DgAxvFQUQGxcaIT4c2QYxPjCILh95m2vSGPu1LAy8Ixr+XsHymY4XSlPU
+       properties :
+        x : 16
+        y : 57
+        width : 206
+        height : 21
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_Distance
+       identifier : 0x2a5db9ac1206564e
+       internal_properties : CAAAAAgAAADc+xEp1mWgSQQiK6Bg8hIuzGnxHHkw48t7mBBs5zvmDCqPPxOVdLr88SVWzO95QvLa7UCo3fHsGeJ0liV0o+Fcy7uHFXeFIFwVFJUknzP158u2uG3C4T3mmcTakwNy6afitaZ3Hn7h8ZTAI6tHMEMCKwP0JF5c54MOg63cB0/Bnt1pkqJZWlxuhLSR/JDRJQQOeXrVpuKoX6+7LENWxIpQiaBjf0X4rwv54KNx0fd7zLfT9Ml2F4A36HxazHHf2jBUrq6AE4yCrsTIhjfvSMAziuJMUuQi/LiBYNKggS8HnRZhzH0zPEjpL4tVQQIM7iy1xym8GGqbN4BCrrT3YOfCuLiZ5WOtYr77XFhHR5QdCXCx/Tn2BT25J2H2DLsRkcXbkIFR25sd8/FK/5t5QVXbRGEsLBptu+mL5Vbs0UPU64c/QxwjBWSLgJV+WtqZORcoA6g+IwatOxu/OfTah6aBmnjD6W8C5MYju/qCPWY=
+       properties :
+        x : 228
+        y : 57
+        width : 76
+        height : 22
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    columns :
+     -
+       name : ATT_Name
+       identifier : 0x2a5db9ac11fd564e
+       internal_properties : CAAAAAgAAAB5zalw+9ederG9TtXik6/7Twlv+odbSjevM3icUEnp1awdZG+//jRuBej1vtO6LQNjv+IaLKCYLzIbJ0Z9EVL79gHvVvTAVVfKng/ijGywkBV5dKwHU44Bd1WeDrwwzUU5+ef4DMpnR5LeQSspOhXRXINL6EfzOY21kQ==
+       type : 3
+       content :
+        identifier : 0x2557a351048684f4
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Address
+       identifier : 0x2a5db9ac11fe564e
+       internal_properties : CAAAAAgAAAAw+et+J/FvbCBG6nPwv8bFDjTC3e6sA705MVcZosHLbHtPiFrRpfj/imIdboiQx5bycyWH700Nc1HCMww1/KaWoECBycPG9pVWaOTn61Ck34vc4O+sXXtZBUGzjxt4pbQvMOnVcywScU7QxojO/trLs81PracMtz6JVPxfmw==
+       type : 3
+       content :
+        identifier : 0x2557a351048884f4
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_City
+       identifier : 0x2a5db9ac11ff564e
+       internal_properties : CAAAAAgAAACtMc2UX7tBpsVxgGkNu/2hzbVTqi97phPt06woFOWfcwJBXDPTAgQe95zFbt/++8Fpo/YSzAjsU1T/G+qtmDU4M8Rw5fn7AMgj9SgJ+dev8dJcNWtkHlFanOiLiQ3HVOZO7PjXqXWC8FMdojqOYMdtCDf3vHOP3TFpxQ==
+       type : 3
+       content :
+        identifier : 0x2557a351048a84f4
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_DistanceValue
+       identifier : 0x2a5db9ac1200564e
+       internal_properties : CAAAAAgAAADMuNTauIWXy9tRBfOkHRVaQruyYPZnLD59Kq3heM8BEa6VxR8PBrpMLqM3AotHGtdSfll+ekr+WP3/Y56YaUuoM9fYQnqKZ+lqafy6mHDhFeZ735DLN7wHd0SNwmDcOrawRQH2
+       type : 3
+       content :
+        identifier : 0x2557a351048c84f4
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Distance
+       identifier : 0x2a5db9ac1201564e
+       internal_properties : CAAAAAgAAADTuiKOBPowTQxBMFQRpXa8Ax25yrHJ/g76cDe2e6JIlKjOGSdNvDz0wgWXiCzw9SmXNWluIqIqnO6PcxrEn0+Y8e1II8O8u0VRJhOis5Kvl77TaXnaCbxHWtkMZO/cJFyU2fxRo8YlbYtIN2F+4/OBZnxM8NoQfSAyvK6hIEc=
+       type : 3
+       content :
+        identifier : 0x2557a351048e84f4
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_MarkerSubscript
+       identifier : 0x2a5db9ac1202564e
+       internal_properties : CAAAAAgAAAD8aOSKiLVnG8sh1YM0jeUKcutCkIZXPA5tOj1xiH+RgRb1VZ+PpposPrOnYisnGneyTlFGgvK20DUXi7bwASOwO88w0uoa93n6+QyqiGDxJZarj2D7x0yXxxTdshAMCobgdTHG
+       type : 3
+       content :
+        identifier : 0x2557a351049084f4
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         DisplayMapPlane()
+         
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : STC_NbAnswers
+    identifier : 0x2a5db9ac1207564e
+    internal_properties : CAAAAAgAAAByUAQcLPSGzFhy8DsPq7Fk+blLyalBRrFLVs2tGR2d4Yhn2g3ogiIL1socYUahyFgOkMoOo2dowyV74VrYaBliZCsbIE7Ti1uaTsjOKgqfE4Xw6c2MU302X9fKJr0zAq3PsEMP/IqHUE1U+hrSBOEUadKnPPj9bREQ/GiLpNFOSIF4JK0k1IxkkcY6gkpChUc9ByIuynodgIEJyB/mmorjkDir3EAYcc7yxQgl9u+3CMCMuuqVrX1QDdpCNaNEGS+MU93FNLA95h1kLkI/Mz8K361yNaLbC+WM39rBbo8MS0wUCfyBODMA5w+Tiee3/ufRrJ7ZdlUadEUhVrn+pb4Ux4AVgWeUgt+mnx5cM8EXKYRy02N5u34hz7jdsnTXkEoEfNCjmd3HxvIxvngaOK8+8e2E9bA7nM7apk4yatM2xsFlfHMh0AQb2+xVOvNAlnpZ3YevQkr5nSeCPGDf7X03r49cnvycDvpoBeFdhjGo3DQFFaiyn6D6lB52zwm+
+    properties :
+     x : 2
+     y : 51
+     width : 316
+     height : 43
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Back2
+    identifier : 0x2a5db9ac1209564e
+    internal_properties : CAAAAAgAAABTdzX03oxyuetaSkrkiEs/XdPVvUIqdu5zPXUBcR89Y0/7/nkKy0QNzpTuRL9FbKCY0UHwQil+YB2DL4ILp/Fg6jqcS9GrgM7N+1wY4WSyy5kZqEvndAbeMMq0QQP6BR+nHjdONgCg20AetzGyTMFbjVzofM9JOv//Y0BM6S2srxkCJNbkSecKhSFMz/m+zX2CUhQyVcNV13Ezm4SRKqzTLvA49J0Zg6bHfyOosgY8czYkhwsEdxpOfUW8tF7TZvw3xhlnG4K0CaJcW5rJuMQqlGWA87Or8gayUFFHhaTtp3iDpVDObuw0JVSzwItKuUuzZHPfI9VJ6JWtSUGliI+wjjDgAEEC1a466sErq0bxPstjNF8i4NLDFp3zXrKF2YFIgSWaXOkc1c7xTaE6DGGYqFx4ActZhBMYvG5exIwIQE0DLI3zULNAsKHjsNiuA8a6LpcdTj3HP5xCISI1m0vzza5263pA0w32l2NM605axvMjuNjst3w55wuJuQs5LzzSUzckBeFILswLF+9fALhsQ93TE18bcf3/fiYnuU9ul0DDUnUEv03cSkkVN9VnikU7FludMKtjKQc/g77vdzJBsLKOYKwxTQe3/uxtdwMp748OYc7yQQAdy6NijNfpNJbF7V+8TojAUnjiqiUyu1kZgsKyhWyS+wQVbBSXiwL8bXteg/buf9rKiSjnQ/Ahs3Y2ZAJHTJqhrbmeDT9N0OVmI7ZyyJDQPU+ZNc/lG0pRfvExV/azzMdTLHXCect5FmY7IkJUf2izTftjZYADga7HKLzKzallG+W5M+iCFeRrcohgYt4DWrR+FbU8KwTTF/UZCFGv0muGWze/+EBvK0S8CCGc8paVXAdUbqZOolkrngu9q7oRQj9cX6/PI2EP5O/y8XmRm4c9kdG723i5hwXk8wPgO2JPdRl9fmGDh9TseZOSDW6oJjeW0a6m5sEXKYkeVxlMeYFPD89AJjFMAVLNS8CZchjwobegoZdzAyxE1w==
+    properties :
+     x : 2
+     y : 1
+     width : 50
+     height : 50
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         MyWindow..Plane = 1
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_RemindSearch2
+    identifier : 0x2a5db9ac120a564e
+    internal_properties : CAAAAAgAAADN3WqHd2q/l5fgaB6XT/VYelP+o/QudEhbwkYYuY2ibDM5OKulzs8FQ86WVQ3oYDSC4v2bKwqZrAbzMSuJFJsN1l0vGlLHu0zS6WqJ6E+hZ9DbEK6JV3lfhJYq/YWETObvogUYptNHl0IOAxvcux6dA5NKMxS7QZgk2f3eV211pCLvr/mGKZUefcNVJCtRnC5Kq1bZELeqMRHZ4cnlK3LjaXQNBKI0NzBs0O61Rm8Q53xSU2wA+ms8Ldapneb91jl7fgZIh2lxHr7m5Duw8AZYK5s7nrgbH7D6giKbbH2h2wbWMaMiGiFuvgBH3dOgbtjhJIS5YB2/pA7QVt0RPYI349IAlSqaIR+z3FDmSw3EI6yGJ/qkfAxmHDMFO2Xhd0pgBPr0+buCd0bnqZFaBT3Jc4WXf+uTLdPUBod9F9zkI63mLETjv1YHlIRjIXSHgbz5HlIpFvKPeO1OytBJzvbyuFCRopoUegdBgiW4dfo4+V6poZkpkdY=
+    properties :
+     x : 52
+     y : 1
+     width : 267
+     height : 50
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Back3
+    identifier : 0x2a5db9ac120b564e
+    internal_properties : CAAAAAgAAAC1QHJxgxXT2BSJXNDQKqtaqxZw15Q9ElPmb4d1dS4NegYNjQ5m5r6f7iy0WlEae5fit8yBvaaUzcHdN6NgyYP0NV+bs+mJ/j3DDinO2RrtrnkJQjcp5JIXpzwPkZ6xCC4jtTk4fnZV6FalQ+lxhfVoqXqtwyhN1VHtwguHPvVLi4w6ctqufyFtciD5RqbVs9OTbSJWi35ZTtT64kBJ7tAt0jjfEsCgLr3aDzoWAUY7Yf3qhp5ipPK5FK6w4QtshfdH5tiikXv4DHKF9oA0THM0U9A4DKJDpulI3IYJWi6ZOeAvI8Cx0oW9Q59sIcQ1ofCRH7QWNSNBEUFjCnlrtU3me1bYZ1gvQiqb3RPvTBwFc3xQgE/jJfN49PGPMohw8OM/ff1LQxvTl0I5SFMxpQ2B3o191L92xksR6+Il5sH+jkZosIlhU5vC4EEu0Tv+lKFllAhv/VXzubEkdQSo8YFNQLcD9l27rvwkOwALKtgX2pecJalpyRgDPctuM3jhLaw9l7bZ9tQ4TQfXWaKYg6/ZzQVwX7IthHgpCyT3uIVKLLr5TvSeJCPYXGdHcWui+J9FRQtfo65EnnxLimmAu3wuZCY5klTVbXQX/BjmPAbFjYocyZW56XvhV6Mp23uprTOvJA3vFBXuX1IP+OKh6dnboVD2KRaoCCFPcpP4OSrKkwiyUoDxTzQeVw5qowuv60NwgtGu5pV7Aqh6h978DlMs9PyIZKO+6gCpuAuV2shAf4MQSt4K/RxXuOd7PgFIy2x6deiab4IK5OVvLEB0j5CsZigK2irSf5/n4zFdYG6PR6pLZpPysh+bSAkZIWekQq0KLMyqfI0tA/lQUjhCFlBOElc+GvmaCHaa8JrF8ZagneeNAobeutOOykNMwQ+yJdfFGzOFg9fMHobfu2rO7YLdIbknErOVeBE9zhwFN+/937sp/U0TMm7Qj/XOGaZNzFG5ds9LAzDjziExLesr4mcPLMowIBA=
+    properties :
+     x : 2
+     y : 1
+     width : 50
+     height : 50
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         MyWindow..Plane = 2
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_Explanation
+    identifier : 0x2a5db9ac120c564e
+    internal_properties : CAAAAAgAAABsKdV0wiKWPmFPWrFG6xbZ44MZa7oKMojEwPVT8eMnaG+kXP9JnTC5Y7P5UjKtW75McuGJHK6h7b9Qp7OIJ7iDQ6XRvluiqaA1yLyrTno2JfRobV1xRvzJYr3Dj9NB0dt5DbteH2QAxpMu4Nrqctycd/SSyVkhguMrUBVX2pz2tF5xGk2t9cD0qbsBN7D07rws5RmE7B1P2blUzSqImJ+nJ8oHbTCMs0aoQPQUm3tbiWtdtxKevzd7w8//jXakAa8C0iiaO3HFmjFhm+Am1W6WxwdNBgG9YJ+qI+EMMc2Q3Ogcvn2Lw8SuGgTRUkIwtlXTDy+30+U//5W4Tr3enDb4hhnz+myp6NqKl5pZvX0NT+FUmNoF1Uygi+yw0kQeAT/YByyCYsrhyK/EUkHpevt1zSACbZxue7tkuFUTd0Vw4tCalX7ErLjhwNXXhRczToLXTiN+XAUFvb9q0B1STgQf2MH91glzHX8JMXEixNz7UyEtGrRtw1R6O6iEx8VO6f7+F02cvpK3b7fXzgeyvA6p9TeObLcFqD01rGn6TLVhn7QQytXvYnMoNRgY1TFVe79Z46NqhY8Rg+exRxC9e2R2Xg5iSFmHdUEy1wDXWwYETrekWQkw8fxhsyy+09o8ivJQrN2fqkJEBgdDYCpJOu7C5wBLp9soq9oE1FBVLYWFk8g8KkXHMOMf/duoOKdRbPHi8DtjCVXzFzsToiuD1iU5/zQbx0nFpg267biUOFkK+A1vX0YaFpISRoaoIw==
+    properties :
+     x : 16
+     y : 8
+     width : 288
+     height : 115
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Back
+    identifier : 0x2a5db9ac120d564e
+    internal_properties : CAAAAAgAAAAo5eH7R7WUkk2j3qT5RGInjcs2DhbC48VHUzYNPrhPdGeW5ybwr3yVmPF5bYsLOCZNPHSlHK+BKEcT7LVfVbZuo82uOFKQacP2V/lCqHU0XMCsUnBYVHtp8im9H8ptuhftJHK3P0kCELvGbXgEGkRBhZuExsKR0sdASDClRFFfF6Ci8ja9YsL3ddPjuEaAuY46YCWn2MpCYHigldgRZ63bPOa9gP/UMiaU9sGNJ2KFkNcux3aUhmUqQ4uK8Yyn7Zy4/+K/TAtqCTgYPzS1sjqSlEQOjuyXIJTvkWCVfOmaBxAZUXI+BfC0NGPk3Cp1/IJP44gyOw3ZOwfXWHkmIrjxGIQRuw3Ux1kBU6fY3L7ffZFWONCJSHXD9ti2rhIIsMFbi9hlB+raVLxnvR9uvnThXVEpVMXGEx293PZ01uBAE5Nvjq2lNLRuhA4uE/HTbxBCsqkm+WWdWQLnhwV0zlJv0x1wA4zDSpQ+tJICDbWwZmehlsqjTIm4iem6dABn5ZLW1MhcxnfQYa4Fq6AeauAoHRSwyqKaGoD5qPMSHR3zqcE6Aa9yQlk4LLhno+OBYApsN/igfHvw5+A52jyTWxZe1efetHlYFXaE9O0GnfUGYrZtjbn8kbHUkz9mcLvAbmnfcWkUD8L9v66w7ZWE/sglW4CbN9wbB1ekQVg/1NLdIugTqEXtFPuUKYqpgrKE7vcyWj5Djcc/7fV1Ib+aNhHBzlJxROlNOJdC1hBKkET3ZYv78kAzocGAzcsJjK8YVQeIAVMNWKMqX6nP54m15g4gtoOTMlcTC5M48MRbEvYWXGHBHYqjrq8NK8p5ONMSfAiYSOww51a+u+h4wlNmwBD7Q9+8OI2SvYTU4nmKWmIQbUOGZis4rOF1PwcteKxqnA9p7p1vbW7nxvNuAPpP325zUYBhc2GqnS3NoGeJRYU/
+    properties :
+     x : -69
+     y : -47
+     width : 50
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         if MyWindow..Plane > 1 then
+         	MyWindow..Plane--
+         else
+         	Close
+         end
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Configure_geotracking
+    identifier : 0x2a5db9ac120e564e
+    internal_properties : CAAAAAgAAABCAjMPQshhYdcnvBp3LAyBHiLLx1hs2iTUOnYHjDFEF60ZrGgFddZOeznAbXpP41BsiegqrKMEgLid6OF6UkjS6tqKCe0Xrq7DK7D8PqBUYiX88938LYy7pBMVsP5FCEvk/j9dlDx6gYIz36iQs1SpUILhaxj4JMJ3uhXHSsNGqQKUgJ0Kf5xpsMQ2D+CPfzN0gS3b9YC9gY+2o9jH5x5TC/XSDaitdon2obo6P2su2lc6K6fbhytfV0ztypLEeuHxkBjC6GrngLZiE36uYcGbxlPBXVMUeptSbUsk/dLXJK0TY48q3d4ecG5JXYoXhrKy10Wv75gfz0W9WqC5F16ukyRyaDGyGbz/sFoJKLD9dOYG85btJUBju/ucSYx60Fz+tar8E+apsrlXDIB8M1CX9dsNTxlLJydxunWRbvSLliVMbNp/oHeGyUNEjLPR5PHmDjvsmFs0wf1vWcBSIFIj4W1s9ikXhWYPLiir+KYGOECZ322s/ld5k+4N0fZ+T0tp0Y/v/YXvgIKiRhWc32+99qzBw+BHF+xF5xUia5046O1l8G6TF9ewWsSplQADr8qTrnJ5LWu7BKWk3ZTBx6eNyvjP5ORlHjFhLIygHeizKsBjHxL0YWomNkYCg0tPZEovbUUSrKASYX/2YO/XNAIqfUcpOAqllO5dXciYuc9b6cXCPxmxyO3uc5V43TWKdXVmV5CwXMKDD1bnUSIh5smXnJldMC2XyDdNHaAxyeMo3BhZFKYOWqT+jTH/XgDQ7Pr1kJc3T7hkR58tGAZ/HjxF7rOhLHM4JMo/w/xIZO1VnfjlDmW/1PtzXlk6ypzFmVIl/MncNEpoAoLxuS2Gp8l0ECBvzpkYXXkSiyunFNdD9BbdnJuks/kVXCznYZMJ97i0QLGyD2Ol9a6Tc3Ai8ilPlkQeJP7IY/ff0x2BJL8L/5GjALSNY2I6kop+2e8nFiA1a41yPEC/ye1BCFHOJH7knWDFbkJNswYoNfQnuRVDRCk0czi1cVxn44tMOX0H/uBTKzcw
+    properties :
+     x : 16
+     y : 291
+     width : 134
+     height : 49
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         OpenMobileWindow(WIN_GeoTracking)
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2a5db9ac120f564e
+  internal_properties : CAAAAAgAAABZP8J0Lrgn9M1PTFTODAJ4VJd+titQWw7LL/5mzHlXnaWAXA+EPBYV3M5bFSyqyZXBgGJY4LBTZJF3anNv70i2gGhe+kWCuaRaQI0XmeV2CCpZM+JiEOCpDIbkfExAzTZucntFoaJZOX2ZqNiFJ0WFXC8j2KYw3tO5OwxhNFeug80tp77rlFWUzJPZMqUWRkex9OFA8VsUR5Xw+OeHFofOfkhazv+WKaLN5g77FDz2yGVccD5Yd9uOgtAQsl+7u5y+UpmeLtG0xp4rNBGGj0nyiumdhryQWhwFt9RE8RO2teLgUSYyBycm8vNS/hoHdeCG4tOQqSoHT+IP7GCSWZI23e0a+DRDw3fpWDGyiXbWJm7TJkFGaI9kKoqkeHzdRO1qkGE2AaVOeRqv/viy5Q==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2a2505a900438be8
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ layout :
+  -
+    widthClient : 320
+    heightClient : 407
+  -
+    widthClient : 320
+    heightClient : 416
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABRRvMh+DwKgvDLGfmIZNRnXYP26cEr04egfhbeVcHZE832FzW6LIvPPcFmlWBJk95g7ACbuEr9+bU8Zitu1JIuQ61KCtlgUOSAJMzuv2Cor7XeppuVlht+VxgQ
+ code_elements :
+  internal_properties : CAAAAAgAAADfkMdz1+EUXWDRNu9A147tubQh8sO5UkeYzsJi7uMj9v5ZMbM1MzussC/FQYmevdLJYAh1htxtNXuPfNzeGSzG13EH0cxEnyM34gqX
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADDtZoBTT6epn/8n3q8h/g5+02MPChtExMHqjuYKKXv93E0lmBbePnNGDOztFBepU6fqgoAEBQ22CpRdEnEDPpYsbVIn9mIDHzQEg7Y2t70/u9dvOeudxq7vNypwNu9c5hJOSvlxh9mqqwOP2Q=
+     code : |1+
+      Procédure WIN_Menu()
+      
+      gnCurrentStatus is int 					//Status of GPS
+      gMyCurrentPosition is a geoPosition		//Current GPS position
+      
+      garrStores is array of Marker	//Table of stores found 
+      PreviousMarker is a Marker
+      
+      gbFollowMove is boolean 
+      
+      
+      MyWindow..Plane = 1
+      GR_Elsewhere..Visible = False
+      
+      
+      // Initialize the GPS
+      // Pass via the relevant provider (satellite or triangulation)
+      GPSInitParameter(gpsAuto)
+      
+      
+      // Is the GPS enabled?
+      if GPSStatus() <> gpsEnabled then
+      	Error("The GPS will not operate.","Enable it to access this application.")
+      else
+      	_ChangeGPSStatus(GPSStatus())
+      end
+      
+      
+      // Branch a callback procedure to be called when the status of the GPS changes
+      GPSStatus(_ChangeGPSStatus)
+   -
+     code : |1+
+      
+      MAP_Position..Zoom = 13
+      
+      // Follow the moves
+      if MapFollowMovement(MAP_Position) = True then
+      	gbFollowMove = True 
+      end
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      gnStoreID is int = MyChildWindow..ReturnedValue
+      if MyChildWindow..ReturnedValue <> -1 then
+      	
+      	HReadSeekFirst(Store, StoreID, gnStoreID)
+      	//Add a marker for this new store in the map
+      	AMarker is a Marker 
+      	AMarker..Position..Latitude = Store.Latitude
+      	AMarker..Position..Longitude = Store.Longitude
+      	AMarker..ActionClick = ClickMarker
+      	AMarker..Description = Store.Lastname + TAB + Store.Address + SPC + Store.City 
+      	MapAddMarker(MAP_Position, AMarker)
+      	
+      	
+      end
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      GPSEnd()
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+      
+     type : 13
+  procedures :
+   -
+     name : _ChangeGPSStatus
+     procedure_id : 1899878766223709759
+     type_code : 14
+     code : |1+
+      /// Summary: Procedure called whenever the GPS status is modified
+      // Syntax:
+      //_ChangeGPSStatus (<nStatus>)
+      //
+      // Parameters:
+      //	nStatus: New GPS status
+      // Return value:
+      // 	None
+      
+      Procédure _ChangeGPSStatus(nStatus)
+      
+      // Ignores the call if the status was not modified
+      if gnCurrentStatus = nStatus then
+      	return
+      end
+      
+      // Stores the current status
+      gnCurrentStatus = nStatus
+      
+      
+      switch nStatus
+      	case gpsEnabled // the provider was enabled by the user.
+      		GetAddress()
+      		
+      	case gpsDisabled 	// the provider was disabled by the user.
+      		
+      	case gpsOffService 	// the provider is off service.
+      		
+      	case gpsUnavailable // the provider is temporarily unavailable.
+      		
+      	case gpsAvailable	// the provider is available.
+      		GetAddress()
+      end
+      
+     type : 458752
+   -
+     name : ClickMarker
+     procedure_id : 1899878766223775295
+     type_code : 14
+     code : |1+
+      // Summary: Process called during the click on a marker
+      // Syntax:
+      //ClickMarker (<CurrentMarker> is Marker)
+      //
+      // Parameters:
+      //	CurrentMarker (Marker): 
+      // Return value:
+      // 	None
+      
+      Procédure ClickMarker(CurrentMarker is a Marker)
+      
+      //Modify the image of the marker that was clicked
+      CurrentMarker..Image = "POI.gif"
+      MapModifyMarker(MAP_Position,CurrentMarker)
+      
+      //Display the store information 
+      STC_MapMarkerName = ExtractString(CurrentMarker..Description, 1, TAB)
+      STC_MapMarkerAddress = ExtractString(CurrentMarker..Description, 2, TAB)
+      STC_MapMarkerDistance = ExtractString(CurrentMarker..Description, 3, TAB)
+      
+      //The previous marker clicked is restored to its initial status
+      if PreviousMarker <> Null then
+      	PreviousMarker..Image = "MarkerRest.gif" 	
+      	MapModifyMarker(MAP_Position,PreviousMarker)
+      end
+      
+      //Store the "future previous marker"
+      PreviousMarker = CurrentMarker
+      
+      
+     type : 458752
+   -
+     name : Reinitialization
+     internal_properties : CAAAAAgAAACioxuF8+6yMW4Cjziviauu6BFWFaqXGXy1m9oU8MFwN3Yj8bFX2/Hk6TYruXjwdiksm4WgWgT9fCvbiDI7OoV43VvfyOwC65579FqlN2qTGN/8l7pRZPNoSiQxso+C4zJ3FG611ptstxhUhh15
+     procedure_id : 1899878766223840831
+     type_code : 14
+     code : |1+
+      // Summary: Reinitialize the variables used for the search
+      
+      Procédure Reinitialization()
+      
+      //Of the looper
+      LooperDeleteAll(LOOP_ListMarkers)
+      
+      //Of the map with its markers
+      MapDeleteAll(MAP_Position)
+      
+      //Of the array that stores the markers
+      ArrayDeleteAll(garrStores)
+     type : 458752
+   -
+     name : FindA
+     internal_properties : CAAAAAgAAACio3110/6eTZ5uLzi3DdOuqNXa5TpXoehFf5pkyHVgT2b/lck/eykosdKbGYAkBkHU7yGg+ny7Lrmh3iD1tBOGA1F5Tm6Uefjh6kC7CaRpfu0ioTjLBtnK+JLXkOmcyRAdcnAzaE0m7Vquhh15
+     procedure_id : 1899878766223906367
+     type_code : 14
+     code : |1+
+      // Summary: Finds the stores located at the specified address
+      Procédure FindA()
+      
+      //Reinitialize the variables used for the search
+      Reinitialization()
+      
+      //Perform a search at the specified address, therefore don't display a distance in relation to another address
+      LOOP_ListMarkers.STC_Distance..Visible = False	
+      
+      //Retrieve the GPS position of the specified address
+      arrAddresses is array of Address
+      if geoGetAddress(EDT_Where, arrAddresses) = False then
+      	if ErrorOccurred then 
+      		Error(ErrorInfo()) 
+      		return
+      	end
+      end
+      InputAddress is an Address = arrAddresses[1]
+      gPositionA is a geoPosition = InputAddress..Position
+      
+      //Browse the stores of the database
+      for each Store 
+      	
+      	//If the store is at the address
+      	if bStoreAtThisAddress(InputAddress) = True then
+      		
+      		//Add a marker for this store in the map	
+      		AMarker is a Marker 
+      		AMarker..Position..Latitude = Store.Latitude
+      		AMarker..Position..Longitude = Store.Longitude
+      		AMarker..ActionClick = ClickMarker
+      		AMarker..Description = Store.Lastname + TAB + Store.Address  + SPC + Store.City
+      		MapAddMarker(MAP_Position, AMarker)
+      		
+      		//Store the store in the array
+      		nSubscript is int 
+      		nSubscript = ArrayAdd(garrStores, AMarker)
+      		
+      		//Add the store into the looper
+      		LooperAddLine(LOOP_ListMarkers, Store.Lastname, Store.Address, Store.City,0, "", nSubscript )
+      		
+      	end
+      end
+      
+      //Indicate the number of answers found
+      STC_NbAnswers = StringBuild("    %1 answer(s)",LooperCount(LOOP_ListMarkers))
+      
+      //Centers the map on the specified address
+      MapDisplayPosition(MAP_Position, gPositionA)
+      
+      STC_RemindSearch2 = TAB + "at " + EDT_Where
+      STC_RemindSearch1 = TAB + "at " + EDT_Where
+      
+      MyWindow..Plane = 2
+      
+      
+     type : 458752
+   -
+     name : FindNearBy
+     internal_properties : CAAAAAgAAADcCNCtCaRsxrUo8/K5fbksvXmPf2CkTu9S3tSxzwosV+UAqcDfYKwlBmcC0HFwFNa15e8FbUjszW+a8iFi/1S3xRDe+W+5IHTdpRz0b33PBd/QKW6jfCTeBY3FMzryVgDipNEjNIB4p8JKIyIBboZF+jkjRtUvuvWRhzHr0PcMn8QD1aS4tWkNmhtlec+kn6wxIj2wMHmv8jcPrDFaJkJVo7LGnEmqmX529FzIGHn9wWSTg1q9PvJPzOyB6E8iL7iaQ32zPMODVRs1
+     procedure_id : 1899878766223971903
+     type_code : 14
+     code : |1+
+      // Summary: Finds the stores located near the specified address >> the search radius can be modified, cf "CST_DISTANCE" constant assigned to 10 kms
+      // Syntax:
+      //FindNearBy (<PositionForSearchRadius> is geoPosition)
+      //
+      // Parameters:
+      //	PositionForSearchRadius (geoPosition): Position around which the search must be performed
+      // Return value:
+      // 	None
+      
+      Procédure FindNearBy(PositionForSearchRadius is a geoPosition)
+      
+      //Reinitialize the variables used for the search
+      Reinitialization()
+      
+      //Perform a "nearby" search, therefore display the distance between the stores found and the address specified for the search
+      LOOP_ListMarkers.STC_Distance..Visible = True	
+      
+      //Browse the stores of the database
+      StorePosition is a geoPosition
+      for each Store 
+      	
+      	//What is the distance between the store and the specified address
+      	StorePosition..Latitude = Store.Latitude
+      	StorePosition..Longitude = Store.Longitude 
+      	rDistance is real = geoDistance(StorePosition, PositionForSearchRadius)
+      	
+      	//If the distance is less than 10 kms, for example
+      	if rDistance < CST_DISTANCE then
+      		
+      		sDistance is string = DistanceToString(rDistance)
+      		
+      		//Add a marker for this store in the map
+      		AMarker is a Marker 
+      		AMarker..Position = StorePosition
+      		AMarker..ActionClick = ClickMarker
+      		AMarker..Description = Store.Lastname + TAB + Store.Address + SPC + Store.City + TAB +  sDistance
+      		MapAddMarker(MAP_Position, AMarker)
+      		
+      		//Store the store in the array
+      		nSubscript is int 
+      		nSubscript = ArrayAdd(garrStores, AMarker)
+      		if nSubscript <0 then
+      			Error("The addition failed")
+      		end
+      		//Add the store into the looper
+      		LooperAddLine(LOOP_ListMarkers, Store.Lastname, Store.Address, Store.City, rDistance, sDistance, nSubscript)
+      		
+      	end
+      end
+      
+      //Sort the looper according to the distance from the marker
+      LooperSort("ATT_DistanceValue")	
+      
+      //Indicate the number of answers found
+      STC_NbAnswers = StringBuild("    %1 answer(s)",LooperCount(LOOP_ListMarkers))
+      
+      // Uncomment the following line to center the map on the position around which the search must be performed.
+      // In this example, display the map by taking all the markers into account and apply a zoom and an alignment according to the markers.
+      //MapDisplayPosition(MAP_Position, PositionForSearchRadius)
+      
+      MyWindow..Plane = 2
+      
+     type : 458752
+   -
+     name : bStoreAtThisAddress
+     procedure_id : 1899878766224037439
+     type_code : 14
+     code : |1-
+      // Summary: Indicates whether the store is found at the address passed in parameter
+      // Syntax:
+      //[ <Result> = ] bStoreAtThisAddress (<SpecifiedAddress> is Address)
+      //
+      // Parameters:
+      //	SpecifiedAddress (Address): Search address
+      // Return value:
+      // 	boolean: True if the store is at the specified address, False otherwise
+      //
+      Procédure bStoreAtThisAddress(InputAddress is an Address)
+      
+      if InputAddress..City <> "" _and_ Upper(InputAddress..City) = Upper(Store.City) then
+      	if InputAddress..Street = "" then
+      		result True
+      	else
+      		if Upper(InputAddress..Street) = Upper(Store.Address) then
+      			result True
+      		end
+      	end
+      	
+      end
+      
+      result False
+     type : 458752
+   -
+     name : DisplayMapPlane
+     internal_properties : CAAAAAgAAAA6C5XfO1a+8S7CD3hvSavuqFFWlapXWXw1G5oU8EEwN3ajMXEXW/EkKXareTiwdmns2wWgWsSdnAv76NJbWmVYfTt/qAxiCz7blLpFV4rz+H/ctxrxxJOIqkQRUq+iQ5KXdA4VdnuIU/Q2HoXh
+     procedure_id : 1899878766224102975
+     type_code : 14
+     code : |1+
+      // Summary: Displays the window plane with the map 
+      
+      Procédure DisplayMapPlane()
+      
+      MyWindow..Plane = 3
+      
+      //Position on the 1st marker by default, otherwise it is the marker that was clicked in the looper
+      TheMarker is a Marker = garrStores[1]
+      ClickMarker(TheMarker)
+      
+      
+      MAP_Position..Zoom = zoomAdaptSize 
+     type : 458752
+   -
+     name : GetAddress
+     internal_properties : CAAAAAgAAAAO3YsoLGctpaQ8nBFO9Nf4RoeJi8Nl0HuwLR5IUDO0kbx+GJ9DCXcIR52W25nwCF0a+UXUWSPOtp9Jtf+zMtgrY1RTBkswaCZYAkwKrgrD9IB8CfmIOkGygAs9Y5vVK0UOGnOIW+s8/I26m5+GMPeqRW90nlWdmSImbYrdKoXofojwD+g=
+     procedure_id : 1899878766224168511
+     type_code : 14
+     code : |1+
+      // Summary: Retrieves the GPS position of the device
+      // Syntax:
+      //[ <Result> = ] GetAddress ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the position was retrieved, False otherwise
+      
+      Procédure GetAddress()
+      
+      //Informs the user that the search for his position is in progress
+      CTPL_Position.STC_CurrentSearch..Visible = True
+      
+      //Display the current address
+      gMyCurrentPosition = GPSGetPosition(20s, "Retrieving your position...")
+      CTPL_Position.DisplayAddress(gMyCurrentPosition)
+      
+      
+      result True
+      
+      
+      case Error:
+      CTPL_Position.STC_CurrentSearch..Visible = True
+      CTPL_Position.STC_CurrentSearch = "Unknown position"
+      result False
+      
+      end :
+      //The search is completed
+      CTPL_Position.STC_CurrentSearch..Visible = False
+      
+     type : 458752
+   -
+     name : StartBesideSearch
+     procedure_id : 1899878766224234047
+     type_code : 14
+     code : |1-
+      // Summary: Starts the search 
+      // Syntax:
+      //StartBesideSearch ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      // 	myPosition (geoPosition - default value=0): <specify the role of myPosition>
+      Procédure StartBesideSearch()
+      
+      GR_Elsewhere..Visible = False
+      
+      // If the monitoring of the move was stopped, re-enable it for the search around me
+      if gbFollowMove = False _and_ MapFollowMovement(MAP_Position) = True then
+      	gbFollowMove = True 
+      end
+      
+      //If the current position was not known yet, try to retrieve it
+      if gMyCurrentPosition..Latitude = 0 then
+      	if GetAddress() = False then
+      		Error("Your position was not retrieved")
+      		return
+      	end
+      end
+      
+      //Finds the stores around the current GPS position
+      FindNearBy(gMyCurrentPosition)
+      
+      
+      STC_RemindSearch1 = TAB + "around me"
+      STC_RemindSearch2 = TAB + "around me"
+     type : 458752
+   -
+     name : DistanceToString
+     internal_properties : CAAAAAgAAACo0GA+I6UhqQUodsNHADLNYQtN/ID0uoJCm4VCJulYSlAIiO9JPzGZF3Hz/NSw8zjxyIfqhikQ/VwnP4Wqlzx8NG+JvzShw5oGr9fH/xZUeVb3Fy+Cf7BifWWWyjqb
+     procedure_id : 1899878766224299583
+     type_code : 14
+     code : |1-
+      // Summary: Converts a distance in meters into a distance in everyday language
+      // Syntax:
+      //[ <Result> = ] DistanceToString (<rDistance>)
+      //
+      // Parameters:
+      //	rDistance: Distance in meters
+      // Return value:
+      // 	UNICODE string: String with the distance in m or km ; according to the value
+      
+      Procédure DistanceToString(rDistance)
+      
+      
+      sDistance is string
+      if rDistance > 999 then
+      	sDistance = StringBuild( "%1 km", Round(rDistance /1000,1))
+      else
+      	sDistance = StringBuild( "%1 m", Round(rDistance))
+      end
+      
+      result sDistance
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACSfTyy8GGDnz/m6Myh+u+mHs0sMDZ7818q/ZNwMGsjB6+jbtNcKuMSVEmbbSRmJPekFKacsUZgUtlv2Ms/pBmK/HZgxZnRpYqkHBuXi6gPT80+OU6IhXATLoJxWH4LCj+SrJfBtu69bnYWJmRZm3hcMtRzO3fgy5Wbc8HP7RjlpGfJABFDe3RxcbHvVfTf2ihpJAsW3mOxWUtu4eoI
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x12cd548d001123f9
+  internal_properties : CAAAAAgAAABqdwwPhFz0QGkCoiPGCr9HpUYKxxUIL/moBKgYuR4CPe5l4RHhaqCQRslBEMBYwZo9m0vmLePjYg==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

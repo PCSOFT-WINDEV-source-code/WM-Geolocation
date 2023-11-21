@@ -1,0 +1,139 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_GeoTracking
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_GeoTracking
+ identifier : 0x2a5db9a8114a4660
+ internal_properties : CAAAAAgAAADMFvrMCXdza3QqdVgg9PZtfUuracuZdta4X1O6ndSXBuhrhZjd2Dbqv5u4kDaRWjodMSjNwFhGSQ+7y9KhvwicQXKub7PXHCdoILr92Tx0KdnnnT0FeSaTHyVHK5J9YOwmgY/5oIypPcBCB33G+EMBNMpnvMjZa2E6XcF6vrTcO3eEYCFCMXU/xI8t+lz8aIk1SVgDbzbmX+zCH13ACN1nR3Q1Rsm5yiStTNd2Wdunps/3vZtCvxyRYP262TI/5APBvvnqlhJ0saA68QMHeJ9/gobj8VdD0Un7hErtb7zvRrjpajDFbTTSo2wupr0jx5SyOqzK+0WVBO+SKd0p8DfeJpxsj767JVIkB/xjnwEUWN3aLSNOESAMFX5/FtJpLPIee4IdQEkCWjs7hH7eLQ+84Bmu40lUM0sH0ZbAVsASo5rx9iULoBQdxSMMqBYMfxDVjWFGhKSja+qI/bPxRuC+P5J1oLav9dLtzYYE0t3rkGyNqmokobO2H7daQqWhDla4P8vWWFP9ZpdbIdFN2DXJqUU4mJ7PDdwWG0OE7dzaNZffC1B3Ir2yVyZ1SJkhTi+bE4qfE1T32NavkcwIJ8zIdP/sQanoxzPsZ92Vd+ZiCG4Y0UvwpyWm1Q6pKWpsRn3ltqbS4tG9beWcMvrk/LyXYzMZlc5otENuPkFRLMudZmcdQCXM646OitpTX2P0okmhZK6HSkNTBrPwBo+u63Rn4aMlEtjRvRjM4JlBU+7dOOsJxLB01FuOleRTE7c=
+ properties :
+  width : 320
+  height : 407
+  heightMin : 480
+ controls :
+  -
+    name : CBOX_Geotracking
+    identifier : 0x2a5db9a8114b4660
+    internal_properties : CAAAAAgAAABmeUAarrt0lvj76v9R+WUu+Lh2+o9pGXRv124Ye94/UCduTTQVoDP7QiVGzQAyaYIDt2zFZDOgdmaO/h0axN5PDvosYchZGN2sy/4zIPaeXzcZ6N8hrNvhn72tH2c1prml5SP/xfLmeDGtoFSUGh7qeicS2dlxvsXsW84tkglHuNNpQoCm1U5KwhTt+0TXATpp4qqlFH4O8PFD7tnolf7uFdVfONvHwepDizwNE3CZP1Cmek2KoUlN9tk3Z1Tgw73gTRwJnB3sBPvAVQsgRk0Mqgvv7G+NKWoW2xZZFAXiign3nf/cm5d+lJqUHxhzlr2IE6nbOKWUelQaM+u2e05JpKitOjz+HdZ8SG3uyaShWs2TG+Ajk5GiHoPeiNNJ0ZLXqIfnqfLsBtQJ0oxzA8zYYvgfb5WvwxYCfXLaaXobko96JkfWk/xzbZi2gWK/SxRFvuWeesr5bO9iZfVkkqB8wpZuz5V8Rgexsrop1sxi2AU+uRUzEWcM3CTBuF+k5egnMhVry5sIiEscKKzeWqOML/woNgijIZS1jIpHAVqa8eUDHHm1k1mJABPTj32kcAvZHyeLCJZdVlgWH+yKFs38Rn6mapAhRc4EGpm3Twgm2daFQam1b+9kINaO0nNyKqe2c8JCHM9r4W0CimI8XdMEaXikHq5EClldfK3aPipkw0rXpRSvR3I4FbJJ2hd5gWCHKatn94RgOxCYe83uWVMZOPa8XuNUzl0h1UzwAvAUUIbznineLhbjDBH3v99KaGvjo94na/IVmCbiSfKlkRdVXVLDgDtG45hB1OQnFKjqLsBXY/BSaQ9Eq9bIJpwxZ5p5A3gGZKVTvnlGnhu9xkX0lWSwufoyGshBFxv4oHs7vGvayR5HIbGFbqA6X/vKbWKJ4zHiPn04PhEsFnsNnmHhhdOlM2CqwjWhecO8oQe/nV4yFhtxAVfm
+    properties :
+     x : 16
+     y : 169
+     width : 296
+     height : 37
+    options :
+     -
+       internal_properties : CAAAAAgAAABPd1GMak4XL6ic7a9GnzErzJiWBO5NgDqT3S3BOVQqRHjMxdaQ6vpBsxzfcssCQrKyC+ilW/o7ckdhO0WzbbMSDH/2cGLWCJrCBz6XyqRfdLPIJUfwPtzMIaABP+J/HkPvbGroDeOlHP1pLx6v0iYbYoBNeRuAobGxBE1CNEpAZSaCjiIhAQYH
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1+
+         
+         MySelf = (geoTrackingStatus() = geoTrackingEnabled)
+        type : 14
+      -
+        code : |1-
+         
+         if geoTrackingStatus() = geoTrackingEnabled then
+         	// Deactivation
+         	geoTrackingDisable()
+         else
+         	// Activation
+         	geoTrackingEnable(ValidateTrackingActivation)
+         end
+        type : 17
+  -
+    name : STC_Explanation
+    identifier : 0x2a5db9a8114d4660
+    internal_properties : CAAAAAgAAAA3lg1ccOq6c/SRhk75y7bq+CikelR9RXdxbgmRwKz0VEHt8gvy4LEgsp8ZxTv5dY2Pd4uPVdcG6Q+qfOuPTL8tOyZrB9vt+SupDeB2kTYyt0sz6xvffm8HQPihfBSJB3NhHRU65rmWIExMy+qwKJM5beYX/xES8Zy0Xm/d3DlvxD5YDzB5Q7AROcOqi8ofMdEQRgDs9fdrZoUvZ6tP8k/9/y7Uk6vICnWdgIubBWdxyINurUHQwyCq7syJIRe8bWw2eiJlzhE2IxRDKszIN7v9qSl87sUcqrpEAMhcdPlyrXOIdwtCucKOKmO6ojYhcubWKmKS+q5Bt1ynwJKQlM4twl1AwLB/CgyKbAhsUg1URrAEZXoSrMgVbizQRgDlqaS5LbBkFBqgCZMqK/0ACeskZTmC25K0MoLOe1baunA+s/KOa/+ZZ/ZABg7K+XAsGDVCoqZv10rvL7WsLBwMoN6pl8ExglVZ9fboBEjCHtDZoVvK6ScTtT847XChFOd6okPmYStoBLqMA8Y1qGCxhovQRZlh0e4aqB6aXYeJFMtPaDuQB2p019g53Bjzk7rRKXcmSgoSKucknIwbnEj0kgEmbaIQ4+6fFFm83R0BmFvzBzvGhrZJuF2GFtsJXyMTdKGOPq7mACvviCWxJ9WvmuTIrwsT0CN1oeiKkfQPCIyiRstHZ1SbbY3u3cG0DLvY5bpjbkd1huQ4PQ==
+    properties :
+     x : 16
+     y : 8
+     width : 288
+     height : 163
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2a5db9a8114e4660
+  internal_properties : CAAAAAgAAADor2lWYe3jJY5bH+iH5e0BoFsUlBmWUTDltubxNbWLZVe3hSFB70/evvRdRrA6U3K6f1/UvY74ygzNnDGoAO1zfn/vCyfSsf1dyqeNmOnYVn1rhCo6KPCVNZ6gSaO2iWMyGDetbPN47JHYw4eqDZprqYUi4WD3/8HquAa7nTKVEX5wh2K5mecNrC6A8vrS8/WyUdaTgUgDcM1CaXSK+3k01SI4W6sAn2R9xhEBpykGmOPLFxNcisLFZQIY0s8Wxwo8JTfYlxN4U4fHrODMbc7aLxPxdLpwNWX1grOrAYXa29YFwLpNyqUrkI+kBNZDm/Zs+aLG9zbv/0e/eOSypqORyLIzkNiKxHqHpiTxMxKewc5QEN3ZQqUB3uSDayBYZjeyjCh8EUlUJCZMixVTByiQjXicj8kkZhdALF/mwU40XEdRk9INig==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      Procédure MyWindow()
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1a183c5b00ed885d
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
